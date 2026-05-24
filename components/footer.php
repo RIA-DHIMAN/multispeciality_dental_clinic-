@@ -83,3 +83,19 @@
 
     </div>
 </footer>
+
+<!-- * Primary: Deep Navy #0F2A44 (trust, expertise)
+* Secondary: Mint Green #A8D8C9 (calm, freshness)
+* Accent: Warm Gold #C8A964 (premium feel)
+* Neutral: Cream #F5F0E8 (warmth, approachability)
+* Pop: Coral Red #E85D5D (warnings, urgency — used sparingly)
+
+Visual Style:
+Premium, editorial, healthcare-modern. Think clean whitespace + bold typography +
+cinematic photography. Avoid clipart, stock dental images, and heavy gradients.
+Recommended Color Palette:
+* Primary: Deep Navy #0F2A44 (trust, expertise)
+* Secondary: Mint Green #A8D8C9 (calm, freshness)
+* Accent: Warm Gold #C8A964 (premium feel)
+* Neutral: Cream #F5F0E8 (warmth, approachability)
+* Pop: Coral Red #E85D5D (warnings, urgency — used sparingly) -->
