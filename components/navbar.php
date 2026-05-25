@@ -12,9 +12,9 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav mx-auto">
-                        <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="./index.php">Home</a></li>
                         <li class="nav-item"><a class="nav-link" href="./about.php">About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Blogs</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./blogs.php">Blogs</a></li>
                         <li class="nav-item"><a class="nav-link" href="./contact-us.php">Contact Us</a></li>
                      
                     </ul>

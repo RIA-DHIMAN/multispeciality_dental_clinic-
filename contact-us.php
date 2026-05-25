@@ -11,25 +11,25 @@
 <body>
 
 <div class="container">
-    <div class="hero-container p-4 p-md-5">
+    <div class="hero-container-contact p-4 p-md-5">
         
         <?php include "./components/navbar.php" ?>
         <!-- Main Hero Body Content -->
        <div class="row hero-content align-items-end">
    <div class="col-lg-10">
 
-    <h1 class="hero-title">Let’s connect. <br>Because Every Smile Matters</h1>
+    <h1 class="hero-title scroll-up">Let’s connect. <br>Because Every Smile Matters</h1>
 
-    <p class="hero-desc mb-0">
+    <p class="hero-desc mb-0 scroll-up">
        We’re always here to answer your questions, address your concerns, and help you take the next step toward a healthier, more confident smile.
     </p>
 
     <div class="mt-4">
-        <p class="clinic-hours mb-2">
+        <p class="clinic-hours mb-2 scroll-up">
             <strong>Hours:</strong> 9:30 A.M. – 2:00 P.M. | 5:30 P.M. – 8:00 P.M.
         </p>
 
-        <p class="clinic-contact mb-0">
+        <p class="clinic-contact mb-0 scroll-up">
             <strong>Location:</strong> K.N. Modi Complex, Modinagar | <strong>Call:</strong> 9457528557
         </p>
     </div>
@@ -47,12 +47,12 @@
             <div class="col-12 col-lg-6 d-flex flex-column justify-content-between">
                 <div>
                     <span class="contact-badge">Get in Touch</span>
-                    <h2 class="contact-main-title">Let’s connect. Because Every Smile Matters</h2>
-                    <p class="contact-lead-text">
+                    <h2 class="contact-main-title scroll-up">Let’s connect. Because Every Smile Matters</h2>
+                    <p class="contact-lead-text scroll-up">
                         We’re always here to answer your questions, ease your concerns, and help you take the next step toward.
                     </p>
                 </div>
-                <div class="contact-img-wrapper mt-auto">
+                <div class="contact-img-wrapper mt-auto scroll-up">
                     <!-- Verbatim image filename element reference as observed in image_7fd54d.jpg -->
                     <img src="./images/bg.png" alt="Smiling medical professional inside workspace clinic">
                 </div>
@@ -60,7 +60,7 @@
 
             <!-- Right Grid Layout Block: Interactive Custom Messaging Form -->
             <div class="col-12 col-lg-6">
-                <div class="contact-form-card">
+                <div class="contact-form-card scroll-up">
                     
                     <h3 class="form-card-title">Message Us</h3>
                     <p class="form-card-desc">We respond quickly, offer expert advice, and are just a message or call away.</p>

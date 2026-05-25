@@ -18,30 +18,30 @@
         <div class="row hero-content align-items-end">
             <div class="col-lg-8">
                 
-                <div class="d-flex align-items-start gap-3 mb-4">
+                <div class="d-flex align-items-start gap-3 mb-4 scroll-up">
                     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="text-white-50 mt-1">
                         <path d="M12 2v20M2 12h20M5.63 5.63l12.74 12.74M5.63 18.37L18.37 5.63"/>
                     </svg>
-                    <p class="sub-invite mb-0">Modinagar's most trusted multispeciality implant & cosmetic dental centre.</p>
+                    <p class="sub-invite mb-0 ">Modinagar's most trusted multispeciality implant & cosmetic dental centre.</p>
                 </div>
 
-                <h1 class="hero-title">Precision Care.<br>Painless Treatment,</h1>
+                <h1 class="hero-title scroll-up">Precision Care.<br>Painless Treatment,</h1>
 
                 <div class="mb-4">
-                    <a href="#" class="tag-badge">Implants</a>
-                    <a href="#" class="tag-badge">Digital X-Ray</a>
-                    <a href="#" class="tag-badge">Orthodontics</a>
-                    <a href="#" class="tag-badge">Painless RCT</a>
-                    <a href="#" class="tag-badge">Cosmetics</a>
+                    <a href="#" class="tag-badge scroll-up">Implants</a>
+                    <a href="#" class="tag-badge scroll-up">Digital X-Ray</a>
+                    <a href="#" class="tag-badge scroll-up">Orthodontics</a>
+                    <a href="#" class="tag-badge scroll-up">Painless RCT</a>
+                    <a href="#" class="tag-badge scroll-up">Cosmetics</a>
                 </div>
 
-                <p class="hero-desc mb-0">
+                <p class="hero-desc mb-0 scroll-up">
                     Led by Dr. Avneesh Tyagi — BDS, Certified Implantologist & Cosmetic Dentist. ✨ 
                     An infection-free, ultra-modern clinic built for comfort, precision, and lasting results.
                 </p>
             </div>
 
-            <div class="col-lg-4 position-relative">
+            <div class="col-lg-4 position-relative scroll-up">
                 <!-- Glassmorphic Review Card Box -->
                 <div class="review-card">
                     <div class="review-rating mb-2">
@@ -52,9 +52,9 @@
                     </div>
                     <div class="d-flex align-items-center">
                         <div class="avatar-stack">
-                            <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=100&q=80" alt="User">
-                            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=100&q=80" alt="User">
-                            <img src="https://images.unsplash.com/photo-1628157582853-a796fa650a6a?auto=format&fit=crop&w=100&q=80" alt="User">
+                            <img src="./images/test1.jpg" alt="User">
+                            <img src="./images/test2.jpg" alt="User">
+                            <img src="./images/test3.jpg" alt="User">
                             <div class="avatar-plus">
                                 <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
                                     <path d="M12 5v14M5 12h14"/>
@@ -76,37 +76,37 @@
     <div class="container position-relative">
         
         <div class="floating-img-container img-left-side d-none d-md-block">
-            <img src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=400&q=80" alt="Dental Care Left">
+            <img src="./images/about1.avif" alt="Dental Care Left">
         </div>
 
         <div class="about-wrapper px-3">
             <span class="badge-about">About Us</span>
             
-            <h2 class="about-heading">
+            <h2 class="about-heading scroll-up">
                 Located at K.N. Modi Complex, Modinagar, we've built a reputation on one principle — every patient deserves precision, comfort, and complete transparency. 
                 <span class="text-dimmed">From your first consultation to your final follow-up, we're with you every step of the way.</span>
             </h2>
 
-            <a href="#" class="btn-learn-more">
-                <span class="svg-circle">
+            <a href="#" class="btn-learn-more scroll-up">
+                <!-- <span class="svg-circle">
                     <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
                         <path d="M5 12h14M12 5l7 7-7 7"/>
                     </svg>
-                </span>
+                </span> -->
                 Learn More About Us
             </a>
         </div>
 
         <div class="floating-img-container img-right-side d-none d-md-block">
-            <img src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?auto=format&fit=crop&w=400&q=80" alt="Dental Care Right">
+            <img src="./images/about2.png" alt="Dental Care Right">
         </div>
 
         <div class="floating-img-wrapper d-flex d-md-none">
             <div class="floating-img-container img-left-side">
-                <img src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=400&q=80" alt="Dental Care Left">
+                <img src="./images/about1.avif" alt="Dental Care Left">
             </div>
             <div class="floating-img-container img-right-side">
-                <img src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?auto=format&fit=crop&w=400&q=80" alt="Dental Care Right">
+                <img src="./images/about2.png" alt="Dental Care Right">
             </div>
         </div>
 
@@ -124,24 +124,18 @@
                         <div class="d-flex flex-column gap-4">
                             
                             <!-- Card 1: Infection-Free Environment -->
-                            <div class="value-card">
+                            <div class="value-card scroll-up">
                                 <div class="value-icon-wrapper">
-                                    <svg width="46" height="46" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round">
-                                        <path d="M12 2C8 2 5 5 5 9c0 3 1.5 5.5 3.5 7l.5 3h6l.5-3C17.5 14.5 19 12 19 9c0-4-3-7-7-7z"/>
-                                        <path d="M9 12h6M12 9v6"/>
-                                    </svg>
+                                      <img width="60" src="./images/icons/6.png" alt="icons">
                                 </div>
                                 <h3 class="value-card-title">Infection-Free Clinic</h3>
                                 <p class="value-card-text">Ultra-modern sterilisation protocols ensure a safe, hygienic environment every visit.</p>
                             </div>
 
                             <!-- Card 3: Personalised Treatment -->
-                            <div class="value-card">
+                            <div class="value-card scroll-up">
                                 <div class="value-icon-wrapper">
-                                    <svg width="46" height="46" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round">
-                                        <path d="M12 11V6a4 4 0 0 1 8 0v5M8 11V9a4 4 0 0 1 4-4M4 13a8 8 0 0 1 15.3-3.1"/>
-                                        <path d="M12 11v10M8 15v4M16 14v5M20 16v2"/>
-                                    </svg>
+                                      <img width="60" src="./images/icons/8.png" alt="icons">
                                 </div>
                                 <h3 class="value-card-title">Personalised Treatment</h3>
                                 <p class="value-card-text">Every plan is designed around your specific dental health — no templates, no shortcuts.</p>
@@ -154,25 +148,18 @@
                         <div class="d-flex flex-column gap-4">
 
                             <!-- Card 2: Advanced Technology -->
-                            <div class="value-card">
+                            <div class="value-card scroll-up">
                                 <div class="value-icon-wrapper">
-                                    <svg width="46" height="46" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round">
-                                        <path d="M9 18h6M10 21h4"/>
-                                        <path d="M12 3a7 7 0 0 0-7 7c0 2.5 1.5 4.5 3 5.5l.5 2.5h7l.5-2.5c1.5-1 3-3 3-5.5a7 7 0 0 0-7-7z"/>
-                                        <path d="M12 7v4M10 9h4"/>
-                                    </svg>
+                                      <img width="60" src="./images/icons/7.png" alt="icons">
                                 </div>
                                 <h3 class="value-card-title">Advanced Technology</h3>
                                 <p class="value-card-text">Digital X-Ray OPG &amp; RVG, Intra-Oral Camera, Rotary RCT — equipped for precise diagnostics.</p>
                             </div>
 
                             <!-- Card 4: Transparent & Trustworthy -->
-                            <div class="value-card">
+                            <div class="value-card scroll-up">
                                 <div class="value-icon-wrapper">
-                                    <svg width="46" height="46" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round">
-                                        <rect x="5" y="10" width="14" height="11" rx="2"/>
-                                        <path d="M7 10V6a5 5 0 0 1 10 0v4M12 14v3"/>
-                                    </svg>
+                                      <img width="60" src="./images/icons/9.png" alt="icons">
                                 </div>
                                 <h3 class="value-card-title">Transparent &amp; Trustworthy</h3>
                                 <p class="value-card-text">Clear diagnosis, honest pricing — you'll always know exactly what to expect and why.</p>
@@ -184,9 +171,9 @@
                 </div>
             </div>
 
-            <div class="col-lg-5 right-content-col ps-lg-5">
+            <div class="col-lg-5 right-content-col ps-lg-5 scroll-up">
                 <span class="badge-values">Core Values</span>
-                <h2 class="values-main-title">The Principles That Drive Every Treatment We Deliver</h2>
+                <h2 class="values-main-title ">The Principles That Drive Every Treatment We Deliver</h2>
                 <p class="values-description">
                     At Dr. Tyagi's clinic, quality is non-negotiable. Our values reflect a deep commitment to patient safety, clinical excellence, and genuine compassion.
                 </p>
@@ -201,8 +188,8 @@
         
         <div class="d-flex align-items-end justify-content-between mb-5 header-flex-row">
             <div>
-                <span class="badge-services">Our Services</span>
-                <h2 class="services-title">Comprehensive Dental Care Under One Roof</h2>
+                <span class="badge-services scroll-up">Our Services</span>
+                <h2 class="services-title scroll-up">Comprehensive Dental Care Under One Roof</h2>
             </div>
             
             <div class="carousel-controls-wrapper">
@@ -225,14 +212,11 @@
             <div class="slider-track" id="sliderTrack">
                 
                 <!-- Card 1: Dental Implants -->
-                <div class="slider-card-item">
+                <div class="slider-card-item scroll-up">
                     <div class="service-card">
                         <div>
                             <div class="service-icon-box">
-                                <svg width="42" height="42" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round">
-                                    <path d="M12 2C8.5 2 6 4.5 6 8c0 2.5 1 4.5 2.5 6 .5.5 1 .5 1 1v4c0 1 1 2 2.5 2s2.5-1 2.5-2v-4c0-.5.5-.5 1-1 1.5-1.5 2.5-3.5 2.5-6 0-3.5-2.5-6-6-6z"/>
-                                    <path d="M12 19v3M10 21h4"/>
-                                </svg>
+                                <img width="60" src="./images/icons/1.png" alt="icons">
                             </div>
                             <h3 class="service-card-title">Dental Implants</h3>
                             <p class="service-card-desc">Restore missing teeth with titanium implants — natural-looking, permanent, and built to last a lifetime.</p>
@@ -245,19 +229,16 @@
                                 View Details
                             </a>
                         </div>
-                        <img src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=500&q=80" alt="Dental Implants" class="service-card-img">
+                        <img src="./images/about1.avif" alt="Dental Implants" class="service-card-img">
                     </div>
                 </div>
 
                 <!-- Card 2: Root Canal Treatment -->
-                <div class="slider-card-item">
+                <div class="slider-card-item scroll-up">
                     <div class="service-card">
                         <div>
                             <div class="service-icon-box">
-                                <svg width="42" height="42" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round">
-                                    <path d="M12 2C8.5 2 6 4.5 6 8c0 2.5 1 4.5 2.5 6l1 3.5c.2.8.8 1.5 1.5 1.5h2c.7 0 1.3-.7 1.5-1.5l1-3.5c1.5-1.5 2.5-3.5 2.5-6 0-3.5-2.5-6-6-6z"/>
-                                    <path d="M9 8h6M12 6v6"/>
-                                </svg>
+                                <img width="60" src="./images/icons/2.png" alt="icons">
                             </div>
                             <h3 class="service-card-title">Painless RCT</h3>
                             <p class="service-card-desc">Rotary instrument-assisted Root Canal Treatment — fast, precise, and completely pain-free under expert care.</p>
@@ -270,19 +251,16 @@
                                 View Details
                             </a>
                         </div>
-                        <img src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?auto=format&fit=crop&w=500&q=80" alt="Root Canal Treatment" class="service-card-img">
+                        <img src="./images/about2.png" alt="Root Canal Treatment" class="service-card-img">
                     </div>
                 </div>
 
                 <!-- Card 3: Orthodontic Treatment -->
-                <div class="slider-card-item">
+                <div class="slider-card-item scroll-up">
                     <div class="service-card">
                         <div>
                             <div class="service-icon-box">
-                                <svg width="42" height="42" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round">
-                                    <path d="M12 2C8.5 2 6 4.5 6 8c0 3.5 2.5 6 6 6s6-2.5 6-6-2.5-6-6-6z"/>
-                                    <path d="M4 8h16M7 8v3M12 8v3M17 8v3"/>
-                                </svg>
+                                 <img width="60" src="./images/icons/3.png" alt="icons">
                             </div>
                             <h3 class="service-card-title">Orthodontic Treatment</h3>
                             <p class="service-card-desc">Braces and alignment solutions for crooked or misaligned teeth — guided by specialist Dr. Pradeep Raghav.</p>
@@ -295,19 +273,16 @@
                                 View Details
                             </a>
                         </div>
-                        <img src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&w=500&q=80" alt="Orthodontic Treatment" class="service-card-img">
+                        <img src="./images/1.png" alt="Orthodontic Treatment" class="service-card-img">
                     </div>
                 </div>
 
                 <!-- Card 4: Crown & Bridge -->
-                <div class="slider-card-item">
+                <div class="slider-card-item scroll-up">
                     <div class="service-card">
                         <div>
                             <div class="service-icon-box">
-                                <svg width="42" height="42" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round">
-                                    <path d="M3 9l3 3 3-3 3 3 3-3 3 3 3-3v9H3z"/>
-                                    <path d="M3 6h18"/>
-                                </svg>
+                                 <img width="60" src="./images/icons/4.png" alt="icons">
                             </div>
                             <h3 class="service-card-title">Crown &amp; Bridge</h3>
                             <p class="service-card-desc">Custom crowns and fixed bridges that seamlessly restore function and aesthetics to damaged or missing teeth.</p>
@@ -320,18 +295,16 @@
                                 View Details
                             </a>
                         </div>
-                        <img src="https://images.unsplash.com/photo-1447479456533-40b35ed0d96d?auto=format&fit=crop&w=500&q=80" alt="Crown & Bridge" class="service-card-img">
+                        <img src="./images/2.png" alt="Crown & Bridge" class="service-card-img">
                     </div>
                 </div>
 
                 <!-- Card 5: Teeth Bleaching & Cosmetic Fillings -->
-                <div class="slider-card-item">
+                <div class="slider-card-item scroll-up">
                     <div class="service-card">
                         <div>
                             <div class="service-icon-box">
-                                <svg width="42" height="42" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round">
-                                    <path d="M12 2C8.5 2 6 4.5 6 8c0 2.5 1 4.5 2.5 6 .5.5 1 .5 1 1v4c0 1 1 2 2.5 2s2.5-1 2.5-2v-4c0-.5.5-.5 1-1 1.5-1.5 2.5-3.5 2.5-6 0-3.5-2.5-6-6-6z"/>
-                                </svg>
+                                 <img width="60" src="./images/icons/5.png" alt="icons">
                             </div>
                             <h3 class="service-card-title">Bleaching &amp; Cosmetic Fillings</h3>
                             <p class="service-card-desc">Professional teeth bleaching and UV light-cured cosmetic fillings for a noticeably brighter, natural-looking smile.</p>
@@ -344,7 +317,7 @@
                                 View Details
                             </a>
                         </div>
-                        <img src="https://images.unsplash.com/photo-1606811841689-23dfddce3e95?auto=format&fit=crop&w=500&q=80" alt="Bleaching & Cosmetic Fillings" class="service-card-img">
+                        <img src="./images/3.png" alt="Bleaching & Cosmetic Fillings" class="service-card-img">
                     </div>
                 </div>
 
@@ -358,15 +331,15 @@
     <div class="container text-center">
         
         <span class="badge-choose">Why Choose Us</span>
-        <h2 class="choose-main-title">Decades of Expertise.<br>A Team You Can Trust.</h2>
-        <p class="choose-description">
+        <h2 class="choose-main-title scroll-up">Decades of Expertise.<br>A Team You Can Trust.</h2>
+        <p class="choose-description scroll-up">
             From advanced diagnostics to painless extractions, every procedure at our clinic is performed with clinical precision, genuine empathy, and respect for your time.
         </p>
 
-        <div class="row align-items-center text-start g-lg-5">
+        <div class="row align-items-center text-start g-lg-5 ">
             
             <div class="col-lg-6">
-                <div class="choose-list-wrapper">
+                <div class="choose-list-wrapper scroll-up">
                     
                     <div class="choose-list-item">
                         <div class="choose-item-number">01<span>/</span></div>
@@ -397,8 +370,8 @@
             </div>
 
             <div class="col-lg-6 image-col-spacer">
-                <div class="choose-image-container">
-                    <img src="https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&w=800&h=620&q=80" alt="Dr. Avneesh Tyagi" class="choose-main-img">
+                <div class="choose-image-container scroll-up">
+                    <img src="./images/4.jpg" alt="Dr. Avneesh Tyagi" class="choose-main-img">
                     
                     <div class="glass-trust-card">
                         <div class="glass-trust-label">Trusted by</div>
@@ -429,12 +402,12 @@
     <div class="container">
         
         <span class="badge-impact">Numbers</span>
-        <h2 class="impact-main-title">Our Clinic, By the Numbers —<br>Results That Speak for Themselves</h2>
+        <h2 class="impact-main-title scroll-up">Our Clinic, By the Numbers —<br>Results That Speak for Themselves</h2>
 
         <div class="impact-table-wrapper">
             
             <!-- Row 1: Smiles Restored -->
-            <div class="impact-row row g-3">
+            <div class="impact-row row g-3 scroll-up">
                 <div class="col-md-4">
                     <div class="impact-label">Smiles<br>Restored</div>
                 </div>
@@ -447,7 +420,7 @@
             </div>
 
             <!-- Row 2: Years of Practice -->
-            <div class="impact-row row g-3">
+            <div class="impact-row row g-3 scroll-up">
                 <div class="col-md-4">
                     <div class="impact-label">Years of<br>Practice</div>
                 </div>
@@ -460,7 +433,7 @@
             </div>
 
             <!-- Row 3: Specialist Doctors -->
-            <div class="impact-row row g-3">
+            <div class="impact-row row g-3 scroll-up">
                 <div class="col-md-4">
                     <div class="impact-label">Specialist<br>Doctors</div>
                 </div>
@@ -473,7 +446,7 @@
             </div>
 
             <!-- Row 4: Emergency Support -->
-            <div class="impact-row row g-3">
+            <div class="impact-row row g-3 scroll-up">
                 <div class="col-md-4">
                     <div class="impact-label">Emergency<br>Support</div>
                 </div>
@@ -496,7 +469,7 @@
         <div class="d-flex align-items-end justify-content-between mb-5 header-row-flex">
             <div>
                 <span class="badge-cases">Case Study</span>
-                <h2 class="cases-title">Real Patients. Real Results. Life-Changing Smiles.</h2>
+                <h2 class="cases-title scroll-up">Real Patients. Real Results. Life-Changing Smiles.</h2>
             </div>
             <div>
                 <a href="#" class="btn-see-all">
@@ -515,7 +488,7 @@
             
             <!-- Card 1: Full Mouth Scanning & Gum Treatment -->
             <div class="col-lg-4 col-md-6">
-                <div class="case-card">
+                <div class="case-card scroll-up">
                     <div>
                         <div class="row g-3 align-items-start">
                             <div class="col-7">
@@ -536,7 +509,7 @@
                                 </a>
                             </div>
                             <div class="col-5">
-                                <img src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=300&h=400&q=80" alt="Gum Treatment" class="case-img">
+                                <img src="./images/5.jpg" alt="Gum Treatment" class="case-img">
                             </div>
                         </div>
                     </div>
@@ -560,7 +533,7 @@
 
             <!-- Card 2: Single Implant + Crown by Dr. Avneesh -->
             <div class="col-lg-4 col-md-6">
-                <div class="case-card">
+                <div class="case-card scroll-up">
                     <div>
                         <div class="row g-3 align-items-start">
                             <div class="col-7">
@@ -581,7 +554,7 @@
                                 </a>
                             </div>
                             <div class="col-5">
-                                <img src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?auto=format&fit=crop&w=300&h=400&q=80" alt="Implant & Crown" class="case-img">
+                                <img src="./images/6.jpg" alt="Implant & Crown" class="case-img">
                             </div>
                         </div>
                     </div>
@@ -605,7 +578,7 @@
 
             <!-- Card 3: Orthodontic Alignment by Dr. Pradeep Raghav -->
             <div class="col-lg-4 col-md-6 mx-auto">
-                <div class="case-card">
+                <div class="case-card scroll-up">
                     <div>
                         <div class="row g-3 align-items-start">
                             <div class="col-7">
@@ -626,7 +599,7 @@
                                 </a>
                             </div>
                             <div class="col-5">
-                                <img src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&w=300&h=400&q=80" alt="Orthodontic Alignment" class="case-img">
+                                <img src="./images/7.jpg" alt="Orthodontic Alignment" class="case-img">
                             </div>
                         </div>
                     </div>
@@ -656,15 +629,15 @@
     <div class="container">
         
         <span class="badge-testimonials">Testimonials</span>
-        <h2 class="testimonials-title">What Our Patients Say</h2>
+        <h2 class="testimonials-title scroll-up">What Our Patients Say</h2>
 
         <div class="row g-4">
             
             <!-- Card 1 -->
             <div class="col-lg-4 col-md-6">
-                <div class="testimonial-card card-immersive">
+                <div class="testimonial-card scroll-up card-immersive">
                     <div class="author-profile-box">
-                        <img src="https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=100&h=100&q=80" alt="Rajesh V." class="author-avatar">
+                        <img src="./images/test1.jpg" alt="Rajesh V." class="author-avatar">
                         <h3 class="author-name">Rajesh V.</h3>
                     </div>
                     <div>
@@ -678,9 +651,9 @@
 
             <!-- Card 2 -->
             <div class="col-lg-4 col-md-6">
-                <div class="testimonial-card card-minimal">
+                <div class="testimonial-card scroll-up card-immersive2">
                     <div class="author-profile-box">
-                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=100&h=100&q=80" alt="Sunil B." class="author-avatar">
+                        <img src="./images/test2.jpg" alt="Sunil B." class="author-avatar">
                         <h3 class="author-name">Sunil B.</h3>
                     </div>
                     <div>
@@ -694,10 +667,10 @@
 
             <!-- Card 3 -->
             <div class="col-lg-4 col-md-6 mx-auto">
-                <div class="testimonial-card card-minimal">
+                <div class="testimonial-card scroll-up card-immersive3">
                     <div class="author-profile-box">
-                        <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=100&h=100&q=80" alt="Neha R." class="author-avatar">
-                        <h3 class="author-name">Neha R.</h3>
+                        <img src="./images/test3.jpg" alt="Neha R." class="author-avatar">
+                        <h3 class="author-name">Rajveer R.</h3>
                     </div>
                     <div>
                         <div class="quote-icon-mark">"</div>
@@ -718,7 +691,7 @@
         <div class="d-flex align-items-end justify-content-between mb-5 header-row-flex">
             <div>
                 <span class="badge-articles">Articles</span>
-                <h2 class="articles-title">Dental Insights — Tips, Guides &amp; Expert Advice</h2>
+                <h2 class="articles-title scroll-up">Dental Insights — Tips, Guides &amp; Expert Advice</h2>
             </div>
             <div>
                 <a href="#" class="btn-view-all">
@@ -736,7 +709,7 @@
         <div class="premium-bento-grid">
             
             <!-- Card 1: Wide -->
-            <div class="bento-card span-wide">
+            <div class="bento-card scroll-up span-wide">
                 <div class="bento-img-frame">
                     <img src="https://images.unsplash.com/photo-1551076805-e1869033e561?auto=format&fit=crop&w=800&h=500&q=80" alt="Dental Implants Guide" class="bento-img">
                 </div>
@@ -761,7 +734,7 @@
             </div>
 
             <!-- Card 2: Normal -->
-            <div class="bento-card span-normal">
+            <div class="bento-card scroll-up span-normal">
                 <div class="bento-img-frame">
                     <img src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&w=500&h=400&q=80" alt="RCT Myths" class="bento-img">
                 </div>
@@ -786,7 +759,7 @@
             </div>
 
             <!-- Card 3: Normal -->
-            <div class="bento-card span-normal">
+            <div class="bento-card scroll-up span-normal">
                 <div class="bento-img-frame">
                     <img src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=500&h=400&q=80" alt="Children's Dental Care" class="bento-img">
                 </div>
@@ -811,7 +784,7 @@
             </div>
 
             <!-- Card 4: Wide -->
-            <div class="bento-card span-wide">
+            <div class="bento-card scroll-up span-wide">
                 <div class="bento-img-frame">
                     <img src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?auto=format&fit=crop&w=800&h=500&q=80" alt="Digital Diagnostics" class="bento-img">
                 </div>

@@ -1,0 +1,498 @@
+/* ==========================================================================
+   DESIGN SYSTEM TOKENS & ROOT VARIABLES
+   ========================================================================== */
+:root {
+    /* Brand Color Palette */
+    --primary-color: #0F2A44;
+    --primary-hover: #11375a;
+    --dark-navy: #0F2A44;
+    --secondary-color: #A8D8C9;
+    --secondary-light: #d4f0ea;
+    --accent-gold: #C8A964;
+    
+    /* Surface Background Tokens */
+    --bg-body: #F5F0E8;
+    --bg-section-tint: #FAFAF8;
+    --card-white: #ffffff;
+    
+    /* Typography Color Mapping */
+    --text-light: #ffffff;
+    --text-muted: rgba(255, 255, 255, 0.75);
+    --text-dark: #1a1a1a;
+    --text-heading-dark: #0F2A44;
+    --text-desc-gray: #5a6b7f;
+    --text-muted-gray: rgba(15, 42, 68, 0.6);
+    
+    /* Layout Framework Tokens */
+    --border-muted: rgba(0, 0, 0, 0.08);
+    --radius-container: 24px;
+    --radius-card: 20px;
+    --radius-inner: 12px;
+    --radius-pill: 30px;
+    --font-main: 'Inter', sans-serif;
+}
+
+/* Base Body Resets */
+body {
+    background-color: var(--card-white);
+    font-family: var(--font-main);
+    color: var(--text-dark);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* ==========================================================================
+   1. HERO MASTER HEADER COMPONENT
+   ========================================================================== */
+.hero-container {
+    font-family: var(--font-main);
+    border-radius: var(--radius-container);
+    position: relative;
+    overflow: hidden;
+    min-height: 560px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 24px;
+    
+    /* Premium Blended Visual Background Treatment Mask */
+    background-image: linear-gradient(
+        rgba(15, 42, 68, 0.45), 
+        rgba(15, 42, 68, 0.75)
+    ), url('image_80c603.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Upper Left Timeline Meta Layer Stamp */
+.hero-meta-year {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--text-light);
+    opacity: 0.8;
+    letter-spacing: 0.5px;
+    margin-bottom: 20px;
+}
+
+/* Capsule Anchor Category Badges */
+.hero-badge-pill {
+    display: inline-block;
+    padding: 5px 16px;
+    background: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    border-radius: var(--radius-pill);
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--text-light);
+    margin-bottom: 16px;
+    backdrop-filter: blur(4px);
+}
+
+/* Categorization Row Meta Layer Styling */
+.hero-meta-subline {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--text-light);
+    margin-bottom: 18px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.hero-meta-dot {
+    width: 5px;
+    height: 5px;
+    background-color: var(--secondary-color);
+    border-radius: 50%;
+    display: inline-block;
+}
+
+/* Core Typographic Hierarchy */
+.hero-title {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: var(--text-light);
+    letter-spacing: -1.5px;
+    margin-bottom: 20px;
+}
+
+.hero-desc {
+    font-size: 15.5px;
+    line-height: 1.65;
+    color: var(--text-muted);
+    max-width: 680px;
+}
+
+/* Lower Micro-Data Dashboard Footnotes Section */
+.hero-meta-bottom-row {
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+    padding-top: 20px;
+}
+
+.clinic-hours {
+    font-size: 14px;
+    color: var(--text-light);
+}
+
+.clinic-hours strong {
+    color: var(--secondary-color);
+}
+
+.clinic-contact {
+    font-size: 13.5px;
+    color: var(--text-muted);
+}
+
+/* ==========================================================================
+   2. MAIN BLOG CONTENT VIEW SECTION
+   ========================================================================== */
+.blog-body-section {
+    font-family: var(--font-main);
+    background-color: var(--card-white);
+    padding: 80px 0 120px 0;
+}
+
+/* Narrative Text Content Configurations */
+.article-rich-text p {
+    font-size: 16px;
+    line-height: 1.8;
+    color: var(--text-desc-gray);
+    margin-bottom: 28px;
+}
+
+.article-rich-text h2 {
+    font-size: 28px;
+    font-weight: 700;
+    color: var(--text-heading-dark);
+    margin-top: 45px;
+    margin-bottom: 20px;
+    letter-spacing: -0.5px;
+}
+
+/* Editorial Blockquote Card Customization */
+.article-pullquote {
+    border-left: 4px solid var(--accent-gold);
+    background-color: var(--bg-section-tint);
+    padding: 30px 40px;
+    border-radius: 0 var(--radius-card) var(--radius-card) 0;
+    margin: 40px 0;
+}
+
+.article-pullquote p {
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 1.6;
+    color: var(--dark-navy);
+    margin-bottom: 0;
+}
+
+/* Clean Bullet Matrix Arrays */
+.article-list {
+    margin-bottom: 35px;
+    padding-left: 20px;
+}
+
+.article-list li {
+    font-size: 15.5px;
+    line-height: 1.75;
+    color: var(--text-desc-gray);
+    margin-bottom: 12px;
+    position: relative;
+    list-style: none;
+}
+
+/* Custom Mint Green list bullet anchors */
+.article-list li::before {
+    content: "•";
+    color: var(--secondary-color);
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+    font-size: 20px;
+    vertical-align: middle;
+    line-height: 1;
+}
+
+/* ==========================================================================
+   3. SIDEBAR STICKY CONTROLS & WIDGET CARDS
+   ========================================================================== */
+.blog-sidebar-sticky {
+    position: sticky;
+    top: 40px;
+}
+
+.sidebar-widget-card {
+    background-color: var(--bg-section-tint);
+    border-radius: var(--radius-card);
+    padding: 35px;
+    margin-bottom: 30px;
+    border: 1px solid var(--border-muted);
+}
+
+.widget-title {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--text-heading-dark);
+    margin-bottom: 24px;
+    letter-spacing: -0.3px;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.widget-title::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 40px;
+    height: 2px;
+    background-color: var(--accent-gold);
+}
+
+/* Shared Quick Link Matrix Components */
+.category-link-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 0;
+    color: var(--text-desc-gray);
+    text-decoration: none;
+    font-size: 14.5px;
+    font-weight: 500;
+    border-bottom: 1px solid var(--border-muted);
+    transition: color 0.2s ease, padding-left 0.2s ease;
+}
+
+.category-link-item:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+.category-link-item:hover {
+    color: var(--dark-navy);
+    padding-left: 6px;
+}
+
+.category-count-badge {
+    background-color: var(--card-white);
+    color: var(--text-heading-dark);
+    font-size: 12px;
+    font-weight: 600;
+    padding: 4px 10px;
+    border-radius: var(--radius-pill);
+    border: 1px solid var(--border-muted);
+}
+
+/* Action Form Input Overrides */
+.sidebar-newsletter-form input {
+    width: 100%;
+    background-color: var(--card-white);
+    border: 1px solid var(--border-muted);
+    border-radius: var(--radius-pill);
+    padding: 12px 20px;
+    font-size: 14px;
+    color: var(--text-dark);
+    outline: none;
+    margin-bottom: 16px;
+    transition: border-color 0.2s ease;
+}
+
+.sidebar-newsletter-form input:focus {
+    border-color: var(--dark-navy);
+}
+
+.btn-sidebar-submit {
+    width: 100%;
+    background-color: var(--dark-navy);
+    color: var(--card-white);
+    border: none;
+    border-radius: var(--radius-pill);
+    padding: 12px 24px;
+    font-size: 14px;
+    font-weight: 600;
+    transition: background-color 0.2s ease;
+}
+
+.btn-sidebar-submit:hover {
+    background-color: var(--primary-hover);
+    color: var(--card-white);
+}
+
+/* ==========================================================================
+   4. RELATED ARTICLES CARD GRID SECTION
+   ========================================================================== */
+.related-blogs-section {
+    font-family: var(--font-main);
+    background-color: var(--card-white);
+    padding: 80px 0 120px 0;
+    border-top: 1px solid var(--border-muted);
+}
+
+.related-section-title {
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--text-heading-dark);
+    letter-spacing: -1px;
+    margin-bottom: 45px;
+}
+
+/* Related Article Card Containers */
+.related-card {
+    background: transparent;
+    border: none;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Image Wrapper Box Scaling */
+.related-img-wrapper {
+    width: 100%;
+    aspect-ratio: 16 / 10;
+    border-radius: var(--radius-card);
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.related-img-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.4s ease;
+}
+
+.related-card:hover .related-img-wrapper img {
+    transform: scale(1.03);
+}
+
+/* Post Metadata String Layer Styling */
+.related-meta {
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--text-heading-dark);
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.related-meta-dot {
+    width: 4px;
+    height: 4px;
+    background-color: var(--dark-navy);
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 0.5;
+}
+
+.related-meta-date {
+    color: var(--text-desc-gray);
+}
+
+/* Heading Structural Typographies */
+.related-title {
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 1.4;
+    color: var(--text-heading-dark);
+    margin-bottom: 12px;
+    letter-spacing: -0.2px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    height: 54px; /* Keeps card headings aligned on identical baselines */
+}
+
+.related-title a {
+    color: inherit;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.related-title a:hover {
+    color: var(--dark-navy);
+}
+
+/* Excerpt Summaries Configuration */
+.related-desc {
+    font-size: 13.5px;
+    line-height: 1.65;
+    color: var(--text-desc-gray);
+    margin-bottom: 20px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+/* High-End Inline Editorial Links */
+.related-read-more {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--text-desc-gray);
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    align-self: flex-start;
+    margin-top: auto;
+    position: relative;
+    padding-bottom: 2px;
+    transition: color 0.2s ease;
+}
+
+.related-read-more::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 1.5px;
+    background-color: transparent;
+    transition: background-color 0.2s ease;
+}
+
+.related-card:hover .related-read-more {
+    color: var(--dark-navy);
+}
+
+.related-card:hover .related-read-more::after {
+    background-color: var(--dark-navy);
+}
+
+/* ==========================================================================
+   5. RESPONSIVE BREAKPOINT MATRIX
+   ========================================================================== */
+@media (max-width: 991.98px) {
+    /* Hero Responsiveness */
+    .hero-title { font-size: 38px; }
+    .hero-container { min-height: 500px; }
+    
+    /* Article & Sidebar Body Layout Switches */
+    .blog-body-section { padding: 60px 0 80px 0; }
+    .blog-sidebar-sticky { position: static; margin-top: 50px; }
+    .article-rich-text h2 { font-size: 24px; }
+    
+    /* Related Grid Adjustments */
+    .related-section-title { font-size: 28px; margin-bottom: 35px; }
+    .related-title { font-size: 17px; height: auto; }
+}
+
+@media (max-width: 767.98px) {
+    
+    /* Hero Responsiveness */
+    .hero-container { min-height: 460px; padding: 24px !important; }
+    .hero-title { font-size: 28px; }
+    .hero-desc { font-size: 14px; }
+    .hero-meta-bottom-row { margin-top: 15px !important; }
+    
+    /* Related Grid Fluid Padding Resets */
+    .related-blogs-section { padding: 60px 0 80px 0; }
+    .related-title { margin-bottom: 8px; }
+    .related-desc { margin-bottom: 16px; -webkit-line-clamp: 3; }
+}

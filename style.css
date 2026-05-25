@@ -1,13 +1,3 @@
-/* ===================================================================
-   HEALTHCARE-MODERN CSS ARCHITECTURE
-   Color Palette:
-   - Primary: Deep Navy #0F2A44 (trust, expertise)
-   - Secondary: Mint Green #A8D8C9 (calm, freshness)
-   - Accent: Warm Gold #C8A964 (premium feel)
-   - Neutral: Cream #F5F0E8 (warmth, approachability)
-   - Pop: Coral Red #E85D5D (warnings, urgency — used sparingly)
-   =================================================================== */
-
 :root {
     /* === HEALTHCARE-MODERN COLOR PALETTE === */
     /* Primary: Deep Navy (trust, expertise) */
@@ -74,10 +64,47 @@ body {
     padding: 45px 0;
 }
 
+/* *{
+    outline: 1px solid red;
+} */
+
 /* ======================== HERO SECTION ======================== */
 .hero-container {
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), 
-                url('./images/bg.png') no-repeat center center;
+                url('./images/bg2.png') no-repeat center center;
+    background-size: cover;
+    border-radius: var(--radius-container);
+    overflow: hidden;
+    color: var(--text-light);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+    min-height: 650px;
+    position: relative;
+}
+.hero-container-about {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), 
+                url('./images/bg5.jpg') no-repeat center center;
+    background-size: cover;
+    border-radius: var(--radius-container);
+    overflow: hidden;
+    color: var(--text-light);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+    min-height: 650px;
+    position: relative;
+}
+.hero-container-contact {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), 
+                url('./images/bg4.png') no-repeat center center;
+    background-size: cover;
+    border-radius: var(--radius-container);
+    overflow: hidden;
+    color: var(--text-light);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+    min-height: 650px;
+    position: relative;
+}
+.hero-container-blog {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), 
+                url('./images/blogs.jpg') no-repeat center center;
     background-size: cover;
     border-radius: var(--radius-container);
     overflow: hidden;
@@ -305,7 +332,7 @@ body {
     font-family: var(--font-main);
     background-color: var(--bg-body);
     position: relative;
-    padding: 100px 0;
+    padding: 50px 0;
     overflow: hidden;
 }
 
@@ -433,7 +460,7 @@ body {
 .values-section {
     font-family: var(--font-main);
     background-color: #ffffff;
-    padding: 100px 0;
+    padding: 50px 0;
 }
 
 .badge-values {
@@ -516,7 +543,7 @@ body {
 .services-section {
     font-family: var(--font-main);
     background-color: var(--bg-section-tint);
-    padding: 100px 0;
+    padding: 50px 0;
     overflow: hidden;
 }
 
@@ -678,7 +705,7 @@ body {
 .choose-section {
     font-family: var(--font-main);
     background-color: #ffffff;
-    padding: 100px 0;
+    padding: 50px 0;
 }
 
 .badge-choose {
@@ -697,7 +724,7 @@ body {
     font-size: 48px;
     font-weight: 700;
     line-height: 1.15;
-    color: var(--text-heading-dark);
+    color: var(--dark-navy);
     letter-spacing: -1.2px;
     margin-bottom: 24px;
 }
@@ -859,7 +886,7 @@ body {
 .impact-section {
     font-family: var(--font-main);
     background-color: #ffffff;
-    padding: 120px 0;
+    padding: 50px 0;
 }
 
 .impact-section .container {
@@ -946,7 +973,7 @@ body {
 .cases-section {
     font-family: var(--font-main);
     background-color: var(--section-bg);
-    padding: 100px 0;
+    padding: 50px 0;
 }
 
 .badge-cases {
@@ -1137,7 +1164,7 @@ body {
 .testimonials-section {
     font-family: var(--font-main);
     background-color: var(--section-bg);
-    padding: 100px 0;
+    padding: 50px 0;
 }
 
 .badge-testimonials {
@@ -1176,9 +1203,23 @@ body {
 
 .testimonial-card.card-immersive {
     background: linear-gradient(to bottom, rgba(15, 42, 68, 0.2), rgba(15, 42, 68, 0.8)), 
-                url('https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=600&h=700&q=80');
+                url('./images/test1.jpg');
     background-size: cover;
     background-position: center;
+}
+.testimonial-card.card-immersive2 {
+    background: linear-gradient(to bottom, rgba(15, 42, 68, 0.2), rgba(15, 42, 68, 0.8)), 
+                url('./images/test2.jpg');
+    background-size: cover;
+    background-position: center;
+     color: white;
+}
+.testimonial-card.card-immersive3 {
+    background: linear-gradient(to bottom, rgba(15, 42, 68, 0.2), rgba(15, 42, 68, 0.8)), 
+                url('./images/test3.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
 }
 
 .testimonial-card.card-minimal {
@@ -1253,7 +1294,7 @@ body {
 .articles-section {
     font-family: var(--font-main);
     background-color: var(--section-bg);
-    padding: 100px 0;
+    padding: 50px 0;
 }
 
 .badge-articles {
@@ -1453,7 +1494,7 @@ body {
 /* ======================== CTA BRIDGE SECTION ======================== */
 .cta-bridge-section {
     background: linear-gradient(135deg, #f0f8f6 0%, rgba(200, 169, 100, 0.08) 100%);
-    padding: 100px 0;
+    padding: 50px 0;
     text-align: center;
 }
 
@@ -1783,7 +1824,7 @@ body {
         ========================================== */
         .cta-bridge-section {
             background-color: var(--neutral-cream);
-            padding: 100px 0;
+            padding: 50px 0;
             text-align: center;
             border-top: 1px solid var(--neutral-cream-dark);
         }
@@ -1998,7 +2039,7 @@ body {
         .mission-section {
             font-family: var(--font-main);
             background-color: var(--soft-blue-bg);
-            padding: 120px 0;
+            padding: 50px 0;
         }
 
         /* Capsule Badge styling */
@@ -2155,7 +2196,7 @@ body {
         /* ==================================spacer section===================================================== */
         .spacer-container {
             background-color: var(--card-white);
-            padding: 100px 0;
+            padding: 50px 0;
             text-align: center;
             color: var(--primary-color);
         }
@@ -2164,7 +2205,7 @@ body {
         .sticky-parallax-section {
             font-family: var(--font-main);
             position: relative;
-            padding: 120px 0;
+            padding: 100px 0;
             
             /* Background Configuration */
             background-image: linear-gradient(
@@ -2197,7 +2238,7 @@ body {
             font-size: 46px;
             font-weight: 700;
             line-height: 1.25;
-            color: var(--text-light);
+            /* color: var(--text-light); */
             letter-spacing: -1.5px;
             margin-bottom: 24px;
         }
@@ -2276,7 +2317,7 @@ body {
         .values-section {
             font-family: var(--font-main);
             background-color: var(--card-white);
-            padding: 120px 0;
+            padding: 50px 0;
         }
 
         /* Capsule Pill Badge Component */
@@ -2402,12 +2443,19 @@ body {
             .values-main-title { font-size: 28px; }
             .values-subtitle { margin-bottom: 40px; }
             .values-img-frame { margin-bottom: 24px; }
+            .footer-nav-side {
+            display: flex;
+            gap: 16px;
+            padding: 0;
+            margin: 10px 0 0 0;
+            list-style: none;
+        }
         }
         /* ======================================faqs section======================================= */
         .faq-section {
             font-family: var(--font-main);
             background-color: var(--card-white);
-            padding: 120px 0;
+            padding: 50px 0;
         }
 
         /* Pill Badge Component */
@@ -2537,7 +2585,7 @@ body {
         ========================================================================================================== */
         .contact-section {
             font-family: var(--font-main);
-            background-color: var(--card-white);
+            /* background-color: var(--card-white); */
             padding: 120px 0;
         }
 
@@ -2680,7 +2728,7 @@ body {
         }
 
         .btn-submit-message:hover {
-            background-color: var(--accent-blue-hover);
+            background-color: var(--dark-navy);
             box-shadow: 0 6px 20px rgba(29, 94, 255, 0.35);
             color: var(--card-white);
         }
@@ -2702,3 +2750,332 @@ body {
             .contact-lead-text { margin-bottom: 30px; }
             .contact-form-card { padding: 35px 25px; }
         }
+        /* ==========================================blogs page ============================================================ */
+        .blog-section {
+            font-family: var(--font-main);
+            background-color: var(--card-white);
+            padding: 120px 0;
+        }
+
+        /* Section Header Layout */
+        .blog-section-title {
+            font-size: 54px;
+            font-weight: 700;
+            line-height: 1.15;
+            color: var(--text-heading-dark);
+            letter-spacing: -2px;
+            margin-bottom: 50px;
+        }
+
+        /* Asymmetric Feature Graphic Container */
+        .blog-img-wrapper {
+            width: 100%;
+            height: 100%;
+            border-radius: var(--radius-card);
+            overflow: hidden;
+        }
+
+        .blog-img-wrapper img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+            min-height: 480px; /* Keeps proportional asset sizing aligned with adjacent info card */
+        }
+
+        /* Right Content Assembly Panel */
+        .blog-content-panel {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding-left: 20px;
+        }
+
+        /* Capsule Pill Meta Tag Category Badge */
+        .blog-cat-badge {
+            display: inline-block;
+            padding: 6px 18px;
+            background-color: var(--card-white);
+            border: 1px solid var(--border-muted);
+            border-radius: var(--radius-pill);
+            font-size: 13px;
+            font-weight: 500;
+            color: var(--text-heading-dark);
+            margin-bottom: 24px;
+            align-self: flex-start;
+        }
+
+        /* Blog Article Title Typography */
+        .blog-article-title {
+            font-size: 26px;
+            font-weight: 700;
+            line-height: 1.35;
+            color: var(--text-heading-dark);
+            letter-spacing: -0.5px;
+            margin-bottom: 20px;
+            max-width: 520px;
+        }
+
+        /* Excerpt Summary Paragraph Typography */
+        .blog-excerpt {
+            font-size: 14px;
+            line-height: 1.7;
+            color: var(--text-desc-gray);
+            margin-bottom: 40px;
+            max-width: 520px;
+        }
+
+        /* Premium Oval Button Interaction Component */
+        .btn-blog-read {
+            background-color: var(--dark-navy);
+            color: var(--card-white);
+            border: none;
+            outline: none;
+            font-size: 14px;
+            font-weight: 600;
+            border-radius: var(--radius-pill);
+            padding: 6px 28px 6px 6px;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 14px;
+            align-self: flex-start;
+            box-shadow: 0 4px 14px rgba(37, 99, 235, 0.2);
+            transition: background-color 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .btn-blog-read:hover {
+            background-color: var(--dark-navy);
+            box-shadow: 0 6px 20px rgba(37, 99, 235, 0.3);
+            color: var(--card-white);
+        }
+
+        /* Clean White Round Icon Dot Layer inside the Blue Button Container */
+        .btn-white-dot {
+            background-color: var(--card-white);
+            color: var(--dark-navy);
+            width: 34px;
+            height: 34px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: color 0.2s ease;
+        }
+
+        .btn-blog-read:hover .btn-white-dot {
+            color: var(--dark-navy);
+        }
+
+        .btn-white-dot svg {
+            width: 14px;
+            height: 14px;
+            fill: none;
+            stroke: currentColor;
+            stroke-width: 2.5;
+        }
+
+        /* Structural Responsive Grid Engine settings */
+        @media (max-width: 991.98px) {
+            .blog-section-title { font-size: 40px; margin-bottom: 35px; }
+            .blog-img-wrapper img { min-height: 360px; }
+            .blog-content-panel { padding-left: 0; margin-top: 30px; }
+            .blog-article-title { font-size: 22px; }
+        }
+
+        @media (max-width: 767.98px) {
+            .blog-section { padding: 80px 0; }
+            .blog-section-title { font-size: 32px; }
+            .blog-excerpt { font-size: 13.5px; margin-bottom: 30px; }
+        }
+
+        /* ================================insight section =============================================== */
+        .insights-section {
+            font-family: var(--font-main);
+            background-color: var(--card-white);
+            padding-bottom: 30px;
+            
+        }
+
+        /* Top Meta Badge Capsule */
+        .insights-badge {
+            display: inline-block;
+            padding: 6px 20px;
+            background-color: var(--card-white);
+            border: 1px solid var(--border-muted);
+            border-radius: var(--radius-pill);
+            font-size: 13px;
+            font-weight: 500;
+            color: var(--text-heading-dark);
+            margin-bottom: 24px;
+        }
+
+        /* Section Header Layout */
+        .insights-main-title {
+            font-size: 48px;
+            font-weight: 700;
+            line-height: 1.2;
+            color: var(--text-heading-dark);
+            letter-spacing: -1.5px;
+            margin-bottom: 60px;
+        }
+
+        /* Article Card Structural Configuration */
+        .insight-article-card {
+            background: transparent;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            border: none;
+        }
+
+        /* Proportional Thumbnail Frame wrapper matching image_805c71.jpg */
+        .insight-img-wrapper {
+            width: 100%;
+            aspect-ratio: 16 / 10;
+            border-radius: var(--radius-card);
+            overflow: hidden;
+            margin-bottom: 24px;
+        }
+
+        .insight-img-wrapper img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+            transition: transform 0.5s ease;
+        }
+
+        .insight-article-card:hover .insight-img-wrapper img {
+            transform: scale(1.04);
+        }
+
+        /* Article Metadata Meta Layer Line */
+        .insight-meta {
+            font-size: 13px;
+            font-weight: 500;
+            color: var(--text-heading-dark);
+            margin-bottom: 16px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        /* Micro Dot Meta Separator Vector */
+        .insight-meta-dot {
+            width: 5px;
+            height: 5px;
+            background-color: var(--dark-navy);
+            border-radius: 50%;
+            display: inline-block;
+            opacity: 0.6;
+        }
+
+        .insight-meta-date {
+            color: var(--text-desc-gray);
+        }
+
+        /* Typography Heading Hierarchy Blocks */
+        .insight-title {
+            font-size: 20px;
+            font-weight: 700;
+            line-height: 1.4;
+            color: var(--text-heading-dark);
+            margin-bottom: 14px;
+            letter-spacing: -0.3px;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            height: 56px; /* Stabilizes the card text line tracking across differing card header arrays */
+        }
+
+        .insight-title a {
+            color: inherit;
+            text-decoration: none;
+            transition: color 0.2s ease;
+        }
+
+        .insight-title a:hover {
+            color: var(--dark-navy);
+        }
+
+        /* Excerpt Summary Paragraph Elements */
+        .insight-desc {
+            font-size: 13.5px;
+            line-height: 1.65;
+            color: var(--text-desc-gray);
+            margin-bottom: 24px;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+
+        /* Clean Underline Text Link Element using explicitly declared --dark-navy token */
+        .insight-link {
+            font-size: 14px;
+            font-weight: 600;
+            color: var(--text-desc-gray);
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            align-self: flex-start;
+            margin-top: auto; /* Clean structural push keeping alignment straight at card baselines */
+            position: relative;
+            padding-bottom: 2px;
+            transition: color 0.25s ease;
+        }
+
+        /* Base underlines matching design specs */
+        .insight-link::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            height: 1.5px;
+            background-color: transparent;
+            transition: background-color 0.25s ease;
+        }
+
+        /* Highlighting target using the required --dark-navy variable */
+        .insight-article-card:hover .insight-link {
+            color: var(--dark-navy);
+        }
+
+        .insight-article-card:hover .insight-link::after {
+            background-color: var(--dark-navy);
+        }
+
+        /* Responsive Breakpoint Adjustment Matrix */
+        @media (max-width: 991.98px) {
+            .insights-main-title { font-size: 38px; margin-bottom: 45px; }
+            .insight-title { font-size: 18px; height: auto; }
+        }
+
+        @media (max-width: 767.98px) {
+            .insights-section { padding: 80px 0; }
+            .insights-main-title { font-size: 28px; }
+            .insight-img-wrapper { margin-bottom: 18px; }
+            .insight-title { height: auto; margin-bottom: 10px; }
+            .insight-desc { margin-bottom: 18px; -webkit-line-clamp: 4; }
+           
+        }
+        /* CSS */
+.scroll-up {
+  opacity: 0;
+  transition: opacity 0.6s ease, transform 0.6s ease;
+  will-change: transform, opacity;
+}
+
+.scroll-up.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Only animate initially */
+.scroll-up:not(.active) {
+  transform: translateY(30px);
+}

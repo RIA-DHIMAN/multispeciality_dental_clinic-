@@ -11,26 +11,26 @@
 <body>
 
 <div class="container">
-    <div class="hero-container p-4 p-md-5">
+    <div class="hero-container-about p-4 p-md-5">
         
         <?php include "./components/navbar.php" ?>
         <!-- Main Hero Body Content -->
        <div class="row hero-content align-items-end">
    <div class="col-lg-10">
 
-    <h1 class="hero-title">Advanced Care.<br>Painless Solutions.</h1>
+    <h1 class="hero-title scroll-up">Advanced Care.<br>Painless Solutions.</h1>
 
-    <p class="hero-desc mb-0">
+    <p class="hero-desc mb-0 scroll-up">
         Led by <strong>Dr. Avneesh Tyagi</strong> — B.D.S, Certified Implantologist & Cosmetic Dentist. 
         Specialized in painless dental treatments, implants, braces, crowns, and cosmetic dentistry in a safe, modern clinic.
     </p>
 
     <div class="mt-4">
-        <p class="clinic-hours mb-2">
+        <p class="clinic-hours mb-2 scroll-up">
             <strong>Hours:</strong> 9:30 A.M. – 2:00 P.M. | 5:30 P.M. – 8:00 P.M.
         </p>
 
-        <p class="clinic-contact mb-0">
+        <p class="clinic-contact mb-0 scroll-up">
             <strong>Location:</strong> K.N. Modi Complex, Modinagar | <strong>Call:</strong> 9457528557
         </p>
     </div>
@@ -50,11 +50,11 @@
             </div>
 
             <div class="col-lg-9 col-12">
-                <h2 class="about-main-heading">
-                    We believe that every smile tells a story — and we’re here to make yours healthier, brighter, and more confident. Whether you're visiting for a rout<span class="text-fade-split">ine cleaning or a complete transformation.</span>
+                <h2 class="about-main-heading scroll-up">
+                    We believe that every smile tells a story — and we’re here to make yours healthier, brighter, and more confident. Whether you're visiting for a routine<span class="text-fade-split"> cleaning or a complete transformation.</span>
                 </h2>
 
-                <a href="#" class="btn-about-cta">
+                <a href="#" class="btn-about-cta scroll-up">
                     <span class="btn-arrow-circle">
                         <svg viewBox="0 0 24 24">
                             <line x1="7" y1="17" x2="17" y2="7"></line>
@@ -67,7 +67,7 @@
                 <div class="row g-4">
                     <!-- Card 1 -->
                     <div class="col-md-4 col-12">
-                        <div class="metric-premium-card">
+                        <div class="metric-premium-card scroll-up">
                             <div>
                                 <h3 class="metric-card-title">Years of Experience</h3>
                                 <p class="metric-card-desc">Delivering trusted dental care for generations of families.</p>
@@ -77,7 +77,7 @@
                     </div>
                     <!-- Card 2 -->
                     <div class="col-md-4 col-12">
-                        <div class="metric-premium-card">
+                        <div class="metric-premium-card scroll-up">
                             <div>
                                 <h3 class="metric-card-title">Patient Satisfaction</h3>
                                 <p class="metric-card-desc">Exceeding expectations with compassionate care.</p>
@@ -87,7 +87,7 @@
                     </div>
                     <!-- Card 3 -->
                     <div class="col-md-4 col-12">
-                        <div class="metric-premium-card">
+                        <div class="metric-premium-card scroll-up">
                             <div>
                                 <h3 class="metric-card-title">Emergency Support</h3>
                                 <p class="metric-card-desc">Always available when your smile needs us most</p>
@@ -108,7 +108,7 @@
         <div class="row">
             <div class="col-12">
                 <span class="mission-badge">Our Mission</span>
-                <h2 class="mission-main-title">Our Promise, Where Compassion Meets Expertise</h2>
+                <h2 class="mission-main-title scroll-up">Our Promise, Where Compassion Meets Expertise</h2>
             </div>
         </div>
 
@@ -117,15 +117,15 @@
             
             <!-- Left Side Column: Spatial Imagery Resource Asset Context -->
             <div class="col-lg-6 col-12">
-                <div class="mission-img-wrapper">
+                <div class="mission-img-wrapper scroll-up">
                     <!-- Image placeholder referencing asset name verbatim as seen in image_72b60b.jpg -->
-                    <img src="https://cdn.prod.website-files.com/6915c3fd857e510c6b207f71/692a9f489ab7141897af6998_Mission%20Image.webp" alt="Our Promise Medical Expert">
+                    <img src="./images/8.png" alt="Our Promise Medical Expert">
                 </div>
             </div>
 
             <!-- Right Side Column: Strategic Narrative Content Card Block -->
             <div class="col-lg-6 col-12">
-                <div class="mission-content-card">
+                <div class="mission-content-card scroll-up">
                     
                     <h3 class="mission-card-title">Our Commitment to Care</h3>
                     <p class="mission-card-lead">To provide compassionate, high-quality care that enhances the comfort, dignity, and quality of life for every resident.</p>
@@ -193,8 +193,8 @@
         <div class="row justify-content-center">
             <div class="col-12 col-xl-10">
                 <span class="values-badge">Core Values</span>
-                <h2 class="values-main-title">The Guiding Principles Behind Every Smile We Create</h2>
-                <p class="values-subtitle">
+                <h2 class="values-main-title scroll-up">The Guiding Principles Behind Every Smile We Create</h2>
+                <p class="values-subtitle scroll-up">
                     Everything we do is guided by principles that reflect our commitment to quality care, trust, and patient well-being.
                 </p>
             </div>
@@ -205,9 +205,9 @@
             
             <!-- Left Side Proportional Imagery Column -->
             <div class="col-12 col-lg-5">
-                <div class="values-img-frame">
+                <div class="values-img-frame scroll-up">
                     <!-- Image component referencing filename resource verbatim from image_73fc84.jpg -->
-                    <img src="./images/bg.png" alt="Dentist analyzing a precision dental model">
+                    <img src="./images/9.png" alt="Dentist analyzing a precision dental model">
                 </div>
             </div>
 
@@ -217,7 +217,7 @@
                     
                     <!-- Value Card 1: Compassionate & Gentle Care -->
                     <div class="col-12 col-sm-6">
-                        <div class="value-feature-card">
+                        <div class="value-feature-card scroll-up">
                             <div class="value-icon-box">
                                 <!-- Handshake / Agreement Icon -->
                                 <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -232,7 +232,7 @@
 
                     <!-- Value Card 2: Excellence Through Innovation -->
                     <div class="col-12 col-sm-6">
-                        <div class="value-feature-card">
+                        <div class="value-feature-card scroll-up">
                             <div class="value-icon-box">
                                 <!-- Innovation / Lightbulb Insight Icon -->
                                 <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -246,7 +246,7 @@
 
                     <!-- Value Card 3: Personalized Dedicated Attention -->
                     <div class="col-12 col-sm-6">
-                        <div class="value-feature-card">
+                        <div class="value-feature-card scroll-up">
                             <div class="value-icon-box">
                                 <!-- Hand / Multi-touch / Interaction Point Icon -->
                                 <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -260,7 +260,7 @@
 
                     <!-- Value Card 4: Our Honesty, Trust, and Integrity -->
                     <div class="col-12 col-sm-6">
-                        <div class="value-feature-card">
+                        <div class="value-feature-card scroll-up">
                             <div class="value-icon-box">
                                 <!-- Secure Trust Shield / Padlock Lock Icon -->
                                 <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -288,8 +288,8 @@
         <div class="row justify-content-center">
             <div class="col-12 col-lg-10">
                 <span class="choose-badge">Choose Us</span>
-                <h2 class="choose-main-title">Experience, Compassion, and Results You Can Trust</h2>
-                <p class="choose-subtitle">
+                <h2 class="choose-main-title text-white scroll-up">Experience, Compassion, and Results <br> You Can Trust</h2>
+                <p class="choose-subtitle scroll-up">
                     Experience, compassion, and results you can trust — our team is dedicated to delivering high-quality care in a comfortable, patient-first environment.
                 </p>
             </div>
@@ -300,7 +300,7 @@
             
             <!-- Card Block 1 -->
             <div class="col-12 col-md-4">
-                <div class="feature-white-card">
+                <div class="feature-white-card scroll-up">
                     <h3 class="feature-card-title">Patient-Centered Care</h3>
                     <div class="feature-card-divider"></div>
                     <p class="feature-card-desc">
@@ -311,7 +311,7 @@
 
             <!-- Card Block 2 -->
             <div class="col-12 col-md-4">
-                <div class="feature-white-card">
+                <div class="feature-white-card scroll-up">
                     <h3 class="feature-card-title">Advanced Technology & Expertise</h3>
                     <div class="feature-card-divider"></div>
                     <p class="feature-card-desc">
@@ -322,7 +322,7 @@
 
             <!-- Card Block 3 -->
             <div class="col-12 col-md-4">
-                <div class="feature-white-card">
+                <div class="feature-white-card scroll-up">
                     <h3 class="feature-card-title">Friendly, Welcoming Environment</h3>
                     <div class="feature-card-divider"></div>
                     <p class="feature-card-desc">
@@ -339,15 +339,15 @@
     <div class="container">
         
         <span class="badge-testimonials">Testimonials</span>
-        <h2 class="testimonials-title">What Our Patients Say</h2>
+        <h2 class="testimonials-title scroll-up">What Our Patients Say</h2>
 
         <div class="row g-4">
             
             <!-- Card 1 -->
             <div class="col-lg-4 col-md-6">
-                <div class="testimonial-card card-immersive">
+                <div class="testimonial-card scroll-up card-immersive">
                     <div class="author-profile-box">
-                        <img src="https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=100&h=100&q=80" alt="Rajesh V." class="author-avatar">
+                        <img src="./images/test1.jpg" alt="Rajesh V." class="author-avatar">
                         <h3 class="author-name">Rajesh V.</h3>
                     </div>
                     <div>
@@ -361,9 +361,9 @@
 
             <!-- Card 2 -->
             <div class="col-lg-4 col-md-6">
-                <div class="testimonial-card card-minimal">
+                <div class="testimonial-card scroll-up card-immersive2">
                     <div class="author-profile-box">
-                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=100&h=100&q=80" alt="Sunil B." class="author-avatar">
+                        <img src="./images/test2.jpg" alt="Sunil B." class="author-avatar">
                         <h3 class="author-name">Sunil B.</h3>
                     </div>
                     <div>
@@ -377,10 +377,10 @@
 
             <!-- Card 3 -->
             <div class="col-lg-4 col-md-6 mx-auto">
-                <div class="testimonial-card card-minimal">
+                <div class="testimonial-card scroll-up card-immersive3">
                     <div class="author-profile-box">
-                        <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=100&h=100&q=80" alt="Neha R." class="author-avatar">
-                        <h3 class="author-name">Neha R.</h3>
+                        <img src="./images/test3.jpg" alt="Neha R." class="author-avatar">
+                        <h3 class="author-name">Rajveer R.</h3>
                     </div>
                     <div>
                         <div class="quote-icon-mark">"</div>
@@ -399,14 +399,14 @@
     <div class="container text-center">
         
         <!-- Header Title block matching image_7403e0.png -->
-        <span class="faq-badge">Frequently Question</span>
-        <h2 class="faq-main-title">Got Questions? We’ve Got<br>Answers</h2>
+        <span class="faq-badge scroll-up">Frequently Question</span>
+        <h2 class="faq-main-title scroll-up">Got Questions? We’ve Got<br>Answers</h2>
 
         <!-- Custom Accordion Block Elements Wrapper -->
         <div class="faq-accordion-container">
             
             <!-- FAQ Item 1 -->
-            <div class="faq-item">
+            <div class="faq-item scroll-up">
                 <button class="faq-trigger" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse-1" aria-expanded="false" aria-controls="faq-collapse-1">
                     <span>Q: How often should I visit the dentist?</span>
                     <span class="faq-icon-indicator"></span>
@@ -419,7 +419,7 @@
             </div>
 
             <!-- FAQ Item 2 -->
-            <div class="faq-item">
+            <div class="faq-item scroll-up">
                 <button class="faq-trigger" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse-2" aria-expanded="false" aria-controls="faq-collapse-2">
                     <span>Q: Do you accept insurance or offer payment plans?</span>
                     <span class="faq-icon-indicator"></span>
@@ -432,7 +432,7 @@
             </div>
 
             <!-- FAQ Item 3 -->
-            <div class="faq-item">
+            <div class="faq-item scroll-up">
                 <button class="faq-trigger" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse-3" aria-expanded="false" aria-controls="faq-collapse-3">
                     <span>Q: I’m nervous about dental visits. Can you help?</span>
                     <span class="faq-icon-indicator"></span>
@@ -445,7 +445,7 @@
             </div>
 
             <!-- FAQ Item 4 -->
-            <div class="faq-item">
+            <div class="faq-item scroll-up">
                 <button class="faq-trigger" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse-4" aria-expanded="false" aria-controls="faq-collapse-4">
                     <span>Q: What treatments do you offer?</span>
                     <span class="faq-icon-indicator"></span>
@@ -458,7 +458,7 @@
             </div>
 
             <!-- FAQ Item 5 -->
-            <div class="faq-item">
+            <div class="faq-item scroll-up">
                 <button class="faq-trigger" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse-5" aria-expanded="false" aria-controls="faq-collapse-5">
                     <span>Q: Are you accepting new patients?</span>
                     <span class="faq-icon-indicator"></span>

@@ -53,3 +53,20 @@ document.addEventListener("DOMContentLoaded", () => {
         // Recalculate dimensions on window resize changes smoothly
         window.addEventListener("resize", updateSliderPosition);
     });
+
+    // JS
+const elements = document.querySelectorAll(".scroll-up");
+
+const observer = new IntersectionObserver((entries, observer) => {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add("active");
+      observer.unobserve(entry.target); // animation only once
+    }
+  });
+}, {
+  threshold: 0.15
+});
+
+elements.forEach((el) => observer.observe(el));
+
