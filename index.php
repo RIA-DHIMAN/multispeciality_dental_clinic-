@@ -87,7 +87,7 @@
                 <span class="text-dimmed">From your first consultation to your final follow-up, we're with you every step of the way.</span>
             </h2>
 
-            <a href="#" class="btn-learn-more scroll-up">
+            <a href="./about.php" class="btn-learn-more scroll-up">
                 <!-- <span class="svg-circle">
                     <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
                         <path d="M5 12h14M12 5l7 7-7 7"/>
@@ -144,7 +144,7 @@
                         </div>
                     </div>
 
-                    <div class="col-sm-6 offset-col-down">
+                    <div class="col-sm-6 offset-col-down mt-4">
                         <div class="d-flex flex-column gap-4">
 
                             <!-- Card 2: Advanced Technology -->

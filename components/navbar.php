@@ -26,7 +26,7 @@
                             <polyline points="7 7 17 7 17 17"></polyline>
                         </svg>
                     </span>
-                        Book Now
+                        Get Connected
                     </a>
                 </div>
             </div>

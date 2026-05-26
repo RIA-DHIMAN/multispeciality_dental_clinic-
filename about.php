@@ -220,10 +220,7 @@
                         <div class="value-feature-card scroll-up">
                             <div class="value-icon-box">
                                 <!-- Handshake / Agreement Icon -->
-                                <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M14 10h4.757a2.25 2.25 0 110 4.5H13m-2-4.5H6.243a2.25 2.25 0 100 4.5H11m0 0V17m0-7V7"></path>
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12 6.477 22 12 22z"></path>
-                                </svg>
+                                <img src="./images/icons/6.png" alt="icon" width="60">
                             </div>
                             <h3 class="value-card-title">Compassionate and Gentle Care</h3>
                             <p class="value-card-desc">We treat every patient with kindness, empathy, and respect.</p>
@@ -235,9 +232,7 @@
                         <div class="value-feature-card scroll-up">
                             <div class="value-icon-box">
                                 <!-- Innovation / Lightbulb Insight Icon -->
-                                <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path>
-                                </svg>
+                                 <img src="./images/icons/7.png" alt="icon" width="60">
                             </div>
                             <h3 class="value-card-title">Excellence Through Innovation</h3>
                             <p class="value-card-desc">We treat every patient with kindness, empathy, and respect.</p>
@@ -249,9 +244,7 @@
                         <div class="value-feature-card scroll-up">
                             <div class="value-icon-box">
                                 <!-- Hand / Multi-touch / Interaction Point Icon -->
-                                <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M15.042 21.672L13.684 16.6m0 0l-2.51 2.225.569-9.47 5.227 7.917-3.286-.672zM12 2.25V4.5m0 15V21.75M4.5 12H2.25m19.5 0H19.5M5.636 5.636l1.591 1.591m9.546 9.546l1.591 1.591M4.5 19.5l1.591-1.591m9.546-9.546l1.591-1.591"></path>
-                                </svg>
+                                 <img src="./images/icons/8.png" alt="icon" width="60">
                             </div>
                             <h3 class="value-card-title">Personalized Dedicated Attention</h3>
                             <p class="value-card-desc">We treat every patient with kindness, empathy, and respect.</p>
@@ -263,9 +256,7 @@
                         <div class="value-feature-card scroll-up">
                             <div class="value-icon-box">
                                 <!-- Secure Trust Shield / Padlock Lock Icon -->
-                                <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M16.5 10.5V6.75a4.5 4.5 0 10-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 002.25-2.25v-6.75a2.25 2.25 0 00-2.25-2.25H6.75a2.25 2.25 0 00-2.25 2.25v6.75a2.25 2.25 0 002.25 2.25z"></path>
-                                </svg>
+                                <img src="./images/icons/9.png" alt="icon" width="60">
                             </div>
                             <h3 class="value-card-title">Our Honesty, Trust, and Integrity</h3>
                             <p class="value-card-desc">We treat every patient with kindness, empathy, and respect.</p>
