@@ -31,3 +31,4 @@
                 </div>
             </div>
         </nav>
+        <?php include "./components/scrolltotop.php"?>

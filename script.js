@@ -100,3 +100,27 @@ document.addEventListener("DOMContentLoaded", () => {
         requestAnimationFrame(updateCounter);
     });
 });
+
+document.addEventListener('DOMContentLoaded', function () {
+    const scrollTopBtn = document.getElementById('scrollToTopBtn');
+    
+    // Visibility Threshold Constant
+    const scrollThreshold = 300; 
+
+    // Handle scroll events cleanly
+    window.addEventListener('scroll', function () {
+        if (window.scrollY > scrollThreshold) {
+            scrollTopBtn.classList.add('is-visible');
+        } else {
+            scrollTopBtn.classList.remove('is-visible');
+        }
+    });
+
+    // Native smooth scroll to absolute coordinates (0,0)
+    scrollTopBtn.addEventListener('click', function () {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    });
+});

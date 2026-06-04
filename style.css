@@ -77,7 +77,7 @@ body {
     overflow: hidden;
     color: var(--text-light);
     box-shadow: 0 20px 40px rgba(0,0,0,0.15);
-    min-height: 650px;
+    min-height: 95vh;
     position: relative;
 } */
 
@@ -87,7 +87,7 @@ body {
     border-radius: var(--radius-container);
     overflow: hidden; /* Critical: Keeps the background images inside the rounded corners */
     box-shadow: 0 20px 40px rgba(0,0,0,0.15);
-    min-height: 650px;
+    min-height: 95vh;
     background: #000; /* Fallback color while images load */
 }
 
@@ -135,7 +135,7 @@ body {
     overflow: hidden;
     color: var(--text-light);
     box-shadow: 0 20px 40px rgba(0,0,0,0.15);
-    min-height: 650px;
+    min-height: 95vh;
     position: relative;
 }
 .hero-container-contact {
@@ -146,7 +146,7 @@ body {
     overflow: hidden;
     color: var(--text-light);
     box-shadow: 0 20px 40px rgba(0,0,0,0.15);
-    min-height: 650px;
+    min-height: 95vh;
     position: relative;
 }
 .hero-container-blog {
@@ -157,7 +157,7 @@ body {
     overflow: hidden;
     color: var(--text-light);
     box-shadow: 0 20px 40px rgba(0,0,0,0.15);
-    min-height: 650px;
+    min-height: 95vh;
     position: relative;
 }
 
@@ -1862,8 +1862,6 @@ body {
             line-height: 1;
             color: var(--text-heading-dark);
             letter-spacing: -2px;
-            margin-top: auto;
-            padding-top: 40px;
         }
 
         /* ==========================================
@@ -3202,7 +3200,7 @@ body {
     position: absolute;
     bottom: 24px;
     left: 24px;
-    background: rgba(0, 0, 0, 0.7);
+    background: rgb(255 255 255 / 9%);
     border: 1px solid rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
@@ -3467,9 +3465,9 @@ body {
     width: 48px;
     height: 48px;
     border-radius: 14px;
-    background: rgba(255, 255, 255, 0.03);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    color: #ffffff;
+       background: rgb(5 30 53);
+    border: 1px solid rgb(199 168 100);
+    color: #c7a864;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -3497,9 +3495,9 @@ body {
 
 /* Interaction States */
 .scroll-to-top-btn:hover {
-    background: rgba(255, 255, 255, 0.08);
-    border-color: rgba(255, 255, 255, 0.25);
-    color: #ffffff;
+   border-radius: 14px;
+       background: rgb(5 30 53);
+    border: 1px solid rgb(199 168 100);
 }
 
 .scroll-to-top-btn:active {
@@ -3515,4 +3513,9 @@ body {
         height: 42px;
         border-radius: 10px;
     }
+}
+.scroll-to-top-btn {
+    /* ... your other styles ... */
+    position: fixed !important;
+    z-index: 999999 !important; /* Force to absolute top layer */
 }
