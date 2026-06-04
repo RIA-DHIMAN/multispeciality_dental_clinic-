@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-<div class="container">
+<div class="container-fluid">
     <div class="hero-container-blog p-4 p-md-5">
         
          <!-- Header / Navigation Bar -->

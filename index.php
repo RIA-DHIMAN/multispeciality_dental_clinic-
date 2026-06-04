@@ -579,6 +579,126 @@
 </section>
 
 
+<!-- ========================================== -->
+<!--       PREMIUM CLINICAL TEAM SECTION        -->
+<!-- ========================================== -->
+<section class="team-section py-5 position-relative">
+    <div class="container">
+        
+        <!-- Section Header -->
+        <div class="row align-items-end mb-5 scroll-up">
+            <div class="col-md-7">
+                <span class="badge-team-section mb-2 d-inline-block">Expert Panel</span>
+                <h2 class="team-section-title mb-0">Our Medical Specialists</h2>
+            </div>
+            <div class="col-md-5 mt-3 mt-md-0 text-start text-md-end">
+                <p class="team-section-lead text-dimmed mb-0">
+                    A dedicated group of certified clinical specialists collaborating to deliver precision care under one roof.
+                </p>
+            </div>
+        </div>
+
+        <!-- Team Grid -->
+        <div class="row g-4 justify-content-center">
+            
+           <!-- Member 1: Orthodontist -->
+<div class="col-md-6 col-lg-4 scroll-up">
+    <div class="team-card h-100">
+        <div class="team-image-wrapper">
+            <img src="./images/team1.jpg" alt="Dr. Ananya Sharma" class="team-photo">
+        </div>
+        <div class="team-body">
+            <div class="team-meta">
+                <h3 class="team-name">Dr. Ananya Sharma</h3>
+                <span class="team-designation">MDS, Orthodontist</span>
+            </div>
+            <p class="team-desc">
+                Specializing in digital smile corrections, Invisalign planning, and advanced interceptive jaw orthopedics for children and adults.
+            </p>
+            
+            <!-- Communication Interface Links -->
+            <div class="team-actions">
+                <a href="tel:+919837690770" class="team-action-btn" aria-label="Call Doctor">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                    </svg>
+                </a>
+                <a href="mailto:ananya@digitalreach.digital" class="team-action-btn" aria-label="Email Doctor">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                        <polyline points="22,6 12,13 2,6"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Member 2: Oral Surgeon -->
+<div class="col-md-6 col-lg-4 scroll-up">
+    <div class="team-card h-100">
+        <div class="team-image-wrapper">
+            <img src="./images/team2.jpg" alt="Dr. Rohan Malhotra" class="team-photo">
+        </div>
+        <div class="team-body">
+            <div class="team-meta">
+                <h3 class="team-name">Dr. Rohan Malhotra</h3>
+                <span class="team-designation">MDS, Maxillofacial Surgeon</span>
+            </div>
+            <p class="team-desc">
+                Expertise in complex surgical extractions, impactive wisdom tooth treatments, and computer-guided bone grafting.
+            </p>
+            <div class="team-actions">
+                <a href="tel:+919837690770" class="team-action-btn" aria-label="Call Doctor">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                    </svg>
+                </a>
+                <a href="mailto:rohan@digitalreach.digital" class="team-action-btn" aria-label="Email Doctor">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                        <polyline points="22,6 12,13 2,6"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Member 3: Endodontist -->
+<div class="col-md-6 col-lg-4 scroll-up">
+    <div class="team-card h-100">
+        <div class="team-image-wrapper">
+            <img src="./images/team3.jpg" alt="Dr. Vikram Aditya" class="team-photo">
+        </div>
+        <div class="team-body">
+            <div class="team-meta">
+                <h3 class="team-name">Dr. Vikram Aditya</h3>
+                <span class="team-designation">MDS, Root Canal Specialist</span>
+            </div>
+            <p class="team-desc">
+                Focused entirely on microscopic painless root canal therapy (RCT), dental trauma management, and restorative crowns.
+            </p>
+            <div class="team-actions">
+                <a href="tel:+919837690770" class="team-action-btn" aria-label="Call Doctor">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                    </svg>
+                </a>
+                <a href="mailto:vikram@digitalreach.digital" class="team-action-btn" aria-label="Email Doctor">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                        <polyline points="22,6 12,13 2,6"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+        </div>
+    </div>
+</section>
+
 <section class="cases-section">
     <div class="container">
         
@@ -740,6 +860,8 @@
         </div>
     </div>
 </section>
+
+
 
 <section class="testimonials-section">
     <div class="container">

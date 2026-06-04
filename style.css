@@ -3325,3 +3325,194 @@ body {
     .dr-full-image-container { min-height: 360px; }
     .dr-full-name { font-size: 1.75rem; }
 }
+
+/* --- Team Section Base Layout --- */
+.team-section {
+    background-color: var(--dark-navy); /* Dark premium backdrop style */
+    color: #ffffff;
+}
+
+.badge-team-section {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    color: var(--text-accent, #cfb997);
+    font-weight: 700;
+}
+
+.team-section-title {
+    font-size: 2.25rem;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    line-height: 1.25;
+}
+
+.team-section-lead {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: rgba(255, 255, 255, 0.5);
+    max-width: 440px;
+    display: inline-block;
+}
+
+/* --- Team Component Minimalist Cards --- */
+.team-card {
+    background: rgba(255, 255, 255, 0.02);
+    border: 1px solid rgba(255, 255, 255, 0.07);
+    border-radius: calc(var(--radius-container, 24px) * 0.75);
+    overflow: hidden;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.4s ease;
+}
+
+.team-card:hover {
+    transform: translateY(-4px);
+    border-color: rgba(255, 255, 255, 0.15);
+}
+
+/* Photo Aspect Wrapper */
+.team-image-wrapper {
+    width: 100%;
+    height: 280px;
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0.01);
+}
+
+.team-photo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top center;
+    transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.team-card:hover .team-photo {
+    transform: scale(1.04);
+}
+
+/* Text & Body Layout Area */
+.team-body {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+.team-meta {
+    margin-bottom: 12px;
+}
+
+.team-name {
+    font-size: 1.35rem;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+    margin-bottom: 2px;
+    color: inherit;
+    color: var(--accent-gold);
+}
+
+.team-designation {
+    font-size: 0.82rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: var(--secondary-color)
+}
+
+.team-desc {
+    font-size: 0.9rem;
+    line-height: 1.55;
+    color: rgba(255, 255, 255, 0.6);
+    margin-bottom: 24px;
+}
+
+/* Quick Action Vector Triggers */
+.team-actions {
+    display: flex;
+    gap: 10px;
+    margin-top: auto; /* Pushes action block cleanly to card bottom edge */
+}
+
+.team-action-btn {
+    width: 42px;
+    height: 42px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+    transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+}
+
+.team-action-btn:hover {
+    background: rgba(255, 255, 255, 0.05);
+    border-color: rgba(255, 255, 255, 0.25);
+    color: #ffffff;
+}
+
+/* --- Responsive Layout Rules --- */
+@media (max-width: 767px) {
+    .team-section-title { font-size: 1.85rem; }
+    .team-image-wrapper { height: 240px; }
+    .team-body { padding: 20px; }
+}
+
+/* --- Sticky Scroll to Top Component --- */
+.scroll-to-top-btn {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 48px;
+    height: 48px;
+    border-radius: 14px;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 9999; /* Ensure it stays safely above absolute layers */
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(15px);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    transition: 
+        opacity 0.4s cubic-bezier(0.16, 1, 0.3, 1),
+        visibility 0.4s cubic-bezier(0.16, 1, 0.3, 1),
+        transform 0.4s cubic-bezier(0.16, 1, 0.3, 1),
+        background-color 0.2s ease,
+        border-color 0.2s ease;
+}
+
+/* State when user has scrolled past threshold */
+.scroll-to-top-btn.is-visible {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+/* Interaction States */
+.scroll-to-top-btn:hover {
+    background: rgba(255, 255, 255, 0.08);
+    border-color: rgba(255, 255, 255, 0.25);
+    color: #ffffff;
+}
+
+.scroll-to-top-btn:active {
+    transform: scale(0.95);
+}
+
+/* Optimize placement on small mobile screens */
+@media (max-width: 576px) {
+    .scroll-to-top-btn {
+        bottom: 20px;
+        right: 20px;
+        width: 42px;
+        height: 42px;
+        border-radius: 10px;
+    }
+}

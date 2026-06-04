@@ -10,7 +10,7 @@
 </head>
 <body>
 
-<div class="container">
+<div class="container-fluid">
     <div class="hero-container-contact p-4 p-md-5">
         
         <?php include "./components/navbar.php" ?>
