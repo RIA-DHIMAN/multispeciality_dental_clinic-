@@ -213,7 +213,7 @@
 <div class="col-md-6 col-lg-4 scroll-up">
     <div class="team-card h-100">
         <div class="team-image-wrapper">
-            <img src="./images/team1.jpg" alt="Dr. Ananya Sharma" class="team-photo">
+            <img src="./images/team/1.png" alt="Dr. Ananya Sharma" class="team-photo">
         </div>
         <div class="team-body">
             <div class="team-meta">
@@ -246,7 +246,7 @@
 <div class="col-md-6 col-lg-4 scroll-up">
     <div class="team-card h-100">
         <div class="team-image-wrapper">
-            <img src="./images/team2.jpg" alt="Dr. Rohan Malhotra" class="team-photo">
+            <img src="./images/team/2.png" alt="Dr. Rohan Malhotra" class="team-photo">
         </div>
         <div class="team-body">
             <div class="team-meta">
@@ -277,7 +277,7 @@
 <div class="col-md-6 col-lg-4 scroll-up">
     <div class="team-card h-100">
         <div class="team-image-wrapper">
-            <img src="./images/team3.jpg" alt="Dr. Vikram Aditya" class="team-photo">
+            <img src="./images/team/3.png" alt="Dr. Vikram Aditya" class="team-photo">
         </div>
         <div class="team-body">
             <div class="team-meta">

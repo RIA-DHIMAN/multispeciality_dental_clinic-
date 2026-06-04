@@ -3519,3 +3519,108 @@ body {
     position: fixed !important;
     z-index: 999999 !important; /* Force to absolute top layer */
 }
+/* --- Aligners Section Base Structure --- */
+.aligners-section {
+    background-color: var(--dark-navy); /* Dark mode continuity layout */
+    color: #ffffff;
+    padding: 90px 0;
+}
+
+.badge-aligners {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    color: var(--text-accent, #cfb997);
+    font-weight: 700;
+}
+
+.aligners-heading {
+    font-size: 2.25rem;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    line-height: 1.25;
+}
+
+.aligners-lead {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+/* --- Card Grid Design Elements --- */
+.aligner-grid-card {
+    background: rgba(255, 255, 255, 0.02);
+    border: 1px solid rgba(255, 255, 255, 0.07);
+    border-radius: calc(var(--radius-container, 24px) * 0.75);
+    padding: 32px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    display: flex;
+    flex-direction: column;
+    transition: 
+        transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), 
+        border-color 0.4s ease, 
+        box-shadow 0.4s ease;
+}
+
+/* Card Interaction Hover Layer */
+.aligner-grid-card:hover {
+    transform: translateY(-5px);
+    border-color: rgba(255, 255, 255, 0.16);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
+
+.aligner-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 28px;
+}
+
+.aligner-icon-box {
+    width: 48px;
+    height: 48px;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-accent, #cfb997);
+    transition: background-color 0.3s ease;
+}
+
+.aligner-grid-card:hover .aligner-icon-box {
+    background: rgba(255, 255, 255, 0.06);
+}
+
+.aligner-card-num {
+    font-size: 0.85rem;
+    font-weight: 700;
+    font-family: monospace;
+    color: rgba(255, 255, 255, 0.2);
+    letter-spacing: 0.05em;
+}
+
+/* Typography Inside Content Body */
+.aligner-card-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    margin-bottom: 12px;
+    color: #ffffff;
+}
+
+.aligner-card-text {
+    font-size: 0.9rem;
+    line-height: 1.6;
+    color: rgba(255, 255, 255, 0.55);
+    margin: 0;
+}
+
+/* --- Mobile Adaptation Overrides --- */
+@media (max-width: 991px) {
+    .aligners-section { padding: 60px 0; }
+    .aligners-heading { font-size: 1.85rem; }
+    .aligner-grid-card { padding: 24px; }
+}

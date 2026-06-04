@@ -132,6 +132,87 @@
     </div>
 </section>
 
+<section class="aligners-section py-5 position-relative">
+    <div class="container">
+        
+        <div class="row align-items-end mb-5">
+            <div class="col-lg-7">
+                <span class="badge-aligners mb-2 d-inline-block">Advanced Orthodontics</span>
+                <h2 class="aligners-heading mb-0">The Modern Alternative to Braces — Clear Aligners</h2>
+            </div>
+            <div class="col-lg-5 mt-3 mt-lg-0">
+                <p class="aligners-lead mb-0">
+                    Straighten your teeth with micro-precision using custom-engineered, transparent tracking layouts designed for your lifestyle.
+                </p>
+            </div>
+        </div>
+
+        <div class="row g-4 justify-content-center">
+            
+            <div class="col-md-6 col-lg-4">
+                <div class="aligner-grid-card h-100">
+                    <div class="aligner-card-header">
+                        <div class="aligner-icon-box">
+                            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7z"></path>
+                                <circle cx="12" cy="12" r="3"></circle>
+                            </svg>
+                        </div>
+                        <span class="aligner-card-num">01</span>
+                    </div>
+                    <div class="aligner-card-body">
+                        <h3 class="aligner-card-title">100% Virtually Invisible</h3>
+                        <p class="aligner-card-text">
+                            Premium medical-grade clear polymers ensure your corrective structural treatment remains completely confidential throughout your daily routine.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <div class="aligner-grid-card h-100">
+                    <div class="aligner-card-header">
+                        <div class="aligner-icon-box">
+                            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"></path>
+                                <path d="M8 12h8"></path>
+                            </svg>
+                        </div>
+                        <span class="aligner-card-num">02</span>
+                    </div>
+                    <div class="aligner-card-body">
+                        <h3 class="aligner-card-title">Effortlessly Removable</h3>
+                        <p class="aligner-card-text">
+                            Maintain perfect oral hygiene without restrictions. Take your sets out cleanly whenever you eat, drink, brush your teeth, or attend special occasions.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <div class="aligner-grid-card h-100">
+                    <div class="aligner-card-header">
+                        <div class="aligner-icon-box">
+                            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+                            </svg>
+                        </div>
+                        <span class="aligner-card-num">03</span>
+                    </div>
+                    <div class="aligner-card-body">
+                        <h3 class="aligner-card-title">3D Digital Mapping</h3>
+                        <p class="aligner-card-text">
+                            Preview your final smile transformation via predictive simulations before your custom aligner matrices are even sent to production.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
 <section class="impact-section py-5">
     <div class="container">
         
@@ -220,7 +301,7 @@
                 <!-- Left Side: Cinematic Portrait Column -->
                 <div class="col-lg-6 position-relative">
                     <div class="dr-full-image-container">
-                        <img src="./images/dr-avneesh.jpg" alt="Dr. Avneesh Tyagi" class="dr-full-photo">
+                        <img src="https://i.pinimg.com/1200x/fe/da/86/feda86f97d839ea44399ac90e17e3af1.jpg" alt="Dr. Avneesh Tyagi" class="dr-full-photo">
                         
                         <!-- Absolute Glass Status Indicator -->
                         <div class="dr-full-status">
@@ -605,7 +686,7 @@
 <div class="col-md-6 col-lg-4 scroll-up">
     <div class="team-card h-100">
         <div class="team-image-wrapper">
-            <img src="./images/team1.jpg" alt="Dr. Ananya Sharma" class="team-photo">
+            <img src="./images/team/1.png" alt="Dr. Ananya Sharma" class="team-photo">
         </div>
         <div class="team-body">
             <div class="team-meta">
@@ -638,7 +719,7 @@
 <div class="col-md-6 col-lg-4 scroll-up">
     <div class="team-card h-100">
         <div class="team-image-wrapper">
-            <img src="./images/team2.jpg" alt="Dr. Rohan Malhotra" class="team-photo">
+            <img src="./images/team/2.png" alt="Dr. Rohan Malhotra" class="team-photo">
         </div>
         <div class="team-body">
             <div class="team-meta">
@@ -669,7 +750,7 @@
 <div class="col-md-6 col-lg-4 scroll-up">
     <div class="team-card h-100">
         <div class="team-image-wrapper">
-            <img src="./images/team3.jpg" alt="Dr. Vikram Aditya" class="team-photo">
+            <img src="./images/team/3.png" alt="Dr. Vikram Aditya" class="team-photo">
         </div>
         <div class="team-body">
             <div class="team-meta">
