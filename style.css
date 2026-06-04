@@ -61,7 +61,7 @@
 body {
     font-family: var(--font-main);
     background-color: var(--bg-body);
-    padding: 45px 0;
+    padding: 20px 0;
 }
 
 /* *{
@@ -69,7 +69,7 @@ body {
 } */
 
 /* ======================== HERO SECTION ======================== */
-.hero-container {
+/* .hero-container {
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), 
                 url('./images/bg2.png') no-repeat center center;
     background-size: cover;
@@ -79,6 +79,53 @@ body {
     box-shadow: 0 20px 40px rgba(0,0,0,0.15);
     min-height: 650px;
     position: relative;
+} */
+
+/* 1. This wrapper now mimics your original container shape & styling */
+.hero-carousel-wrapper {
+    position: relative;
+    border-radius: var(--radius-container);
+    overflow: hidden; /* Critical: Keeps the background images inside the rounded corners */
+    box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+    min-height: 650px;
+    background: #000; /* Fallback color while images load */
+}
+
+/* 2. Absolute carousel matching the exact dimensions of the parent wrapper */
+#heroCarousel {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    pointer-events: none; /* Allows text selection and link clicks to pass through */
+}
+
+/* 3. Forces Bootstrap items to fill the full container height */
+#heroCarousel .carousel-inner,
+#heroCarousel .carousel-item {
+    height: 100%;
+}
+
+/* 4. Individual slide styling utilizing your original image settings */
+.hero-bg-slide {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+/* 5. Content styling—positioning it cleanly directly over the carousel */
+.hero-container {
+    position: relative;
+    z-index: 2; /* Sits proudly on top of the images */
+    color: var(--text-light);
+    min-height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .hero-container-about {
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), 
@@ -889,9 +936,9 @@ body {
     padding: 50px 0;
 }
 
-.impact-section .container {
-    max-width: 1000px;
-}
+/* .impact-section .container {
+    max-width: 1270px;
+} */
 
 .badge-impact {
     display: inline-block;
@@ -3078,4 +3125,203 @@ body {
 /* Only animate initially */
 .scroll-up:not(.active) {
   transform: translateY(30px);
+}
+
+/* --- Section Level Layout --- */
+.doctor-section {
+    background-color: var(--dark-navy); /* Clean premium digital-dark base layout */
+    color: #ffffff;
+}
+
+/* Subtle underlying light leaks */
+.dr-ambient-glow {
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    background: radial-gradient(circle, rgb(200 169 100 / 17%) 0%, rgba(0, 0, 0, 0) 70%);
+    top: -10%;
+    right: -10%;
+    z-index: 1;
+    pointer-events: none;
+}
+
+/* Section Header Typography */
+.badge-dr-section {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    color: var(--text-accent, #cfb997); /* Adjust brand accent tint here */
+    font-weight: 700;
+}
+
+.dr-section-title {
+    font-size: 2.25rem;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    line-height: 1.25;
+}
+
+.dr-section-lead {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: rgba(255, 255, 255, 0.5);
+    max-width: 440px;
+    display: inline-block;
+}
+
+/* --- Full-Width Profile Layout Box --- */
+.dr-profile-full-width {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.02);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: var(--radius-container, 24px);
+    overflow: hidden;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 30px 60px rgba(0,0,0,0.15);
+}
+
+.dr-full-image-container {
+    width: 100%;
+    height: 100%;
+    min-height: 520px;
+    position: relative;
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0.01);
+}
+
+.dr-full-photo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center top;
+}
+
+/* Glass Status Indicator */
+.dr-full-status {
+    position: absolute;
+    bottom: 24px;
+    left: 24px;
+    background: rgba(0, 0, 0, 0.7);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 40px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.status-pulse-dot {
+    width: 8px;
+    height: 8px;
+    background: #10b981;
+    border-radius: 50%;
+    box-shadow: 0 0 10px #10b981;
+}
+
+/* Content Pane Elements */
+.dr-full-badge {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    color: rgba(255, 255, 255, 0.4);
+    font-weight: 700;
+}
+
+.dr-full-name {
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+}
+
+.dr-full-subtitle {
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.7);
+    font-weight: 500;
+}
+
+.dr-full-divider {
+    border: 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+    margin: 20px 0;
+    opacity: 1;
+}
+
+.dr-full-bio {
+    font-size: 0.95rem;
+    line-height: 1.65;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/* Metrics Profile Grid */
+.metric-block {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.metric-val {
+    font-size: 1.75rem;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.metric-lbl {
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: rgba(255, 255, 255, 0.4);
+    font-weight: 600;
+}
+
+/* Action System Buttons */
+.btn-full-primary {
+    background: #ffffff;
+    color: #000000;
+    text-decoration: none;
+    padding: 14px 24px;
+    border-radius: 30px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    transition: background-color 0.2s ease;
+}
+
+.btn-full-primary:hover {
+    background: rgba(255, 255, 255, 0.9);
+}
+
+.btn-full-secondary {
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    color: #ffffff;
+    text-decoration: none;
+    padding: 14px 24px;
+    border-radius: 30px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+.btn-full-secondary:hover {
+    background: rgba(255, 255, 255, 0.04);
+    border-color: rgba(255, 255, 255, 0.25);
+}
+
+/* --- Responsive Scaling Toggles --- */
+@media (max-width: 991px) {
+    .dr-section-title { font-size: 1.85rem; }
+    .dr-full-image-container { min-height: 360px; }
+    .dr-full-name { font-size: 1.75rem; }
 }

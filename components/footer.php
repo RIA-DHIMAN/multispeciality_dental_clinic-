@@ -15,8 +15,8 @@
 </section>
 
 <!-- 2. Refactored High-Fidelity Modern Footer -->
-<footer class="oravio-footer container scroll-up">
-    <div class="container">
+<footer class="oravio-footer mx-2 scroll-up">
+    <div class="container-fluid">
         
         <!-- Upper Context Interface -->
         <div class="footer-upper-flex">

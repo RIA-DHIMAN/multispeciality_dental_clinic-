@@ -70,3 +70,33 @@ const observer = new IntersectionObserver((entries, observer) => {
 
 elements.forEach((el) => observer.observe(el));
 
+document.addEventListener("DOMContentLoaded", () => {
+    const stats = document.querySelectorAll(".impact-stat[data-target]");
+    const duration = 1500; // Total animation length in milliseconds
+
+    stats.forEach(stat => {
+        const target = parseInt(stat.getAttribute("data-target"), 10);
+        const suffix = stat.getAttribute("data-suffix") || "";
+        const startTime = performance.now();
+
+        const updateCounter = (currentTime) => {
+            const elapsedTime = currentTime - startTime;
+            const progress = Math.min(elapsedTime / duration, 1);
+            
+            // Premium easeOutQuad curve for realistic deceleration speed
+            const easeProgress = progress * (2 - progress); 
+            const currentValue = Math.floor(easeProgress * target);
+
+            // Format numbers greater than 1000 with a localized comma string
+            stat.textContent = currentValue.toLocaleString() + suffix;
+
+            if (progress < 1) {
+                requestAnimationFrame(updateCounter);
+            } else {
+                stat.textContent = target.toLocaleString() + suffix;
+            }
+        };
+
+        requestAnimationFrame(updateCounter);
+    });
+});

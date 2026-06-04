@@ -10,8 +10,26 @@
 </head>
 <body>
 
-<div class="container">
-    <div class="hero-container p-4 p-md-5">
+<div class="container-fluid">
+    <div class="hero-carousel-wrapper">
+        
+        <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="hero-bg-slide" style="background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), url('./images/bg2.png');"></div>
+                </div>
+                <div class="carousel-item">
+                    <div class="hero-bg-slide" style="background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), url('./images/bg3.png');"></div>
+                </div>
+                <div class="carousel-item">
+                    <div class="hero-bg-slide" style="background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), url('./images/bg4.png');"></div>
+                </div>
+                <div class="carousel-item">
+                    <div class="hero-bg-slide" style="background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), url('./images/bg5.png');"></div>
+                </div>
+            </div>
+        </div>
+    <div class="hero-container mt-0 pt-0 p-4 p-md-5">
         
         <?php include "./components/navbar.php" ?>
         <!-- Main Hero Body Content -->
@@ -70,6 +88,7 @@
         </div>
 
     </div>
+    </div>
 </div>
 
 <section class="about-section">
@@ -107,6 +126,167 @@
             </div>
             <div class="floating-img-container img-right-side">
                 <img src="./images/about2.png" alt="Dental Care Right">
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section class="impact-section py-5">
+    <div class="container">
+        
+        <span class="badge-impact">Numbers</span>
+        <h2 class="impact-main-title scroll-up mb-5">Our Clinic, By the Numbers —<br>Results That Speak for Themselves</h2>
+
+        <!-- Reconfigured Into a Single Row Grid -->
+        <div class="row g-4 justify-content-center">
+            
+            <!-- Stat 1: Smiles Restored -->
+            <div class="col-6 col-lg-3 scroll-up">
+                <div class="impact-card h-100 d-flex flex-column justify-content-between p-3">
+                    <div>
+                        <!-- The data attributes pass the target values to the JS counter script -->
+                        <div class="impact-stat d-inline-block" data-target="10000" data-suffix="+">0+</div>
+                        <div class="impact-label mt-2">Smiles<br>Restored</div>
+                    </div>
+                    <p class="impact-text mt-3 mb-0">Thousands of patients across Modinagar — treated, transformed, and smiling with confidence.</p>
+                </div>
+            </div>
+
+            <!-- Stat 2: Years of Practice -->
+            <div class="col-6 col-lg-3 scroll-up">
+                <div class="impact-card h-100 d-flex flex-column justify-content-between p-3">
+                    <div>
+                        <div class="impact-stat d-inline-block" data-target="15" data-suffix="+">0+</div>
+                        <div class="impact-label mt-2">Years of<br>Practice</div>
+                    </div>
+                    <p class="impact-text mt-3 mb-0">Over a decade of specialised experience in implantology and cosmetic dentistry across the region.</p>
+                </div>
+            </div>
+
+            <!-- Stat 3: Specialist Doctors -->
+            <div class="col-6 col-lg-3 scroll-up">
+                <div class="impact-card h-100 d-flex flex-column justify-content-between p-3">
+                    <div>
+                        <div class="impact-stat d-inline-block" data-target="5" data-suffix="+">0+</div>
+                        <div class="impact-label mt-2">Specialist<br>Doctors</div>
+                    </div>
+                    <p class="impact-text mt-3 mb-0">A panel of specialists — orthodontist, oral surgeon, cosmetic dentist — all under one roof.</p>
+                </div>
+            </div>
+
+            <!-- Stat 4: Emergency Support -->
+            <div class="col-6 col-lg-3 scroll-up">
+                <div class="impact-card h-100 d-flex flex-column justify-content-between p-3">
+                    <div>
+                        <div class="impact-stat dynamic-text mb-0" style="line-height: 1;">24/7</div>
+                        <div class="impact-label mt-2">Emergency<br>Support</div>
+                    </div>
+                    <p class="impact-text mt-3 mb-0">Reach us anytime — 9837690770 or 9319128319 — for urgent dental care when you need it most.</p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<!-- ========================================== -->
+<!--       PREMIUM CLINICAL DIRECTORS SECTION   -->
+<!-- ========================================== -->
+<section class="doctor-section py-5 position-relative overflow-hidden">
+    <!-- Subtle Background Ambient Light (Premium Digital Accent) -->
+    <div class="dr-ambient-glow"></div>
+
+    <div class="container position-relative" style="z-index: 2;">
+        
+        <!-- Section Header Layer -->
+        <div class="row align-items-end mb-5 scroll-up">
+            <div class="col-md-7">
+                <span class="badge-dr-section mb-2 d-inline-block">Medical Leadership</span>
+                <h2 class="dr-section-title mb-0">Meet Our Chief Medical Director & Specialist</h2>
+            </div>
+            <div class="col-md-5 mt-3 mt-md-0 text-start text-md-end">
+                <p class="dr-section-lead text-dimmed mb-0">
+                    Combining clinical expertise with cutting-edge medical tech to reshape patient experiences in Modinagar.
+                </p>
+            </div>
+        </div>
+
+        <!-- Full-Width Doctor Profile Card Component -->
+        <div class="dr-profile-full-width scroll-up">
+            <div class="row g-0 align-items-stretch">
+                
+                <!-- Left Side: Cinematic Portrait Column -->
+                <div class="col-lg-6 position-relative">
+                    <div class="dr-full-image-container">
+                        <img src="./images/dr-avneesh.jpg" alt="Dr. Avneesh Tyagi" class="dr-full-photo">
+                        
+                        <!-- Absolute Glass Status Indicator -->
+                        <div class="dr-full-status">
+                            <span class="status-pulse-dot"></span>
+                            <span>Accepting New Patients • Modinagar Clinic</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Side: Deep Editorial Content Column -->
+                <div class="col-lg-6 d-flex flex-column justify-content-center">
+                    <div class="dr-full-content-pane p-4 p-md-5">
+                        
+                        <div class="dr-full-header mb-4">
+                            <span class="dr-full-badge mb-2 d-inline-block">Clinic Founder & Director</span>
+                            <h2 class="dr-full-name mb-1">Dr. Avneesh Tyagi</h2>
+                            <p class="dr-full-subtitle mb-0">BDS, Certified Implantologist & Cosmetic Dentist</p>
+                        </div>
+
+                        <hr class="dr-full-divider">
+
+                        <p class="dr-full-bio mb-4">
+                            With over 15 years of active clinical experience, Dr. Avneesh Tyagi has established a benchmark for painless, computer-guided implant dentistry and state-of-the-art aesthetic transformations across the region. Known for his meticulous approach to patient comfort and micro-precision treatment mapping, his practice eliminates the anxiety typically associated with advanced oral restoration.
+                        </p>
+
+                        <!-- High-End Clinical Metrics Grid -->
+                        <div class="row g-4 dr-full-metrics mb-5">
+                            <div class="col-sm-4 col-6">
+                                <div class="metric-block">
+                                    <span class="metric-val">15+</span>
+                                    <span class="metric-lbl">Years Experience</span>
+                                </div>
+                            </div>
+                            <div class="col-sm-4 col-6">
+                                <div class="metric-block">
+                                    <span class="metric-val">10k+</span>
+                                    <span class="metric-lbl">Smiles Restored</span>
+                                </div>
+                            </div>
+                            <div class="col-sm-4 col-12">
+                                <div class="metric-block">
+                                    <span class="metric-val">5.0 ★</span>
+                                    <span class="metric-lbl">Patient Rating</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Call to Action Interface Buttons -->
+                        <div class="dr-full-actions d-flex flex-wrap gap-3">
+                            <a href="#book-appointment" class="btn-full-primary">
+                                <span>Schedule Private Consultation</span>
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                                    <path d="M5 12h14M12 5l7 7-7 7"/>
+                                </svg>
+                            </a>
+                            <a href="tel:+919837690770" class="btn-full-secondary">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="me-2">
+                                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                                </svg>
+                                Direct Call Support
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+
             </div>
         </div>
 
@@ -398,70 +578,6 @@
     </div>
 </section>
 
-<section class="impact-section">
-    <div class="container">
-        
-        <span class="badge-impact">Numbers</span>
-        <h2 class="impact-main-title scroll-up">Our Clinic, By the Numbers —<br>Results That Speak for Themselves</h2>
-
-        <div class="impact-table-wrapper">
-            
-            <!-- Row 1: Smiles Restored -->
-            <div class="impact-row row g-3 scroll-up">
-                <div class="col-md-4">
-                    <div class="impact-label">Smiles<br>Restored</div>
-                </div>
-                <div class="col-md-4 text-start text-md-center text-lg-start ps-lg-5">
-                    <div class="impact-stat">10,000+</div>
-                </div>
-                <div class="col-md-4 d-flex justify-content-md-start justify-content-lg-end">
-                    <p class="impact-text">Thousands of patients across Modinagar — treated, transformed, and smiling with confidence.</p>
-                </div>
-            </div>
-
-            <!-- Row 2: Years of Practice -->
-            <div class="impact-row row g-3 scroll-up">
-                <div class="col-md-4">
-                    <div class="impact-label">Years of<br>Practice</div>
-                </div>
-                <div class="col-md-4 text-start text-md-center text-lg-start ps-lg-5">
-                    <div class="impact-stat">15+</div>
-                </div>
-                <div class="col-md-4 d-flex justify-content-md-start justify-content-lg-end">
-                    <p class="impact-text">Over a decade of specialised experience in implantology and cosmetic dentistry across the region.</p>
-                </div>
-            </div>
-
-            <!-- Row 3: Specialist Doctors -->
-            <div class="impact-row row g-3 scroll-up">
-                <div class="col-md-4">
-                    <div class="impact-label">Specialist<br>Doctors</div>
-                </div>
-                <div class="col-md-4 text-start text-md-center text-lg-start ps-lg-5">
-                    <div class="impact-stat">5+</div>
-                </div>
-                <div class="col-md-4 d-flex justify-content-md-start justify-content-lg-end">
-                    <p class="impact-text">A panel of specialists — orthodontist, oral surgeon, cosmetic dentist — all under one roof for complete care.</p>
-                </div>
-            </div>
-
-            <!-- Row 4: Emergency Support -->
-            <div class="impact-row row g-3 scroll-up">
-                <div class="col-md-4">
-                    <div class="impact-label">Emergency<br>Support</div>
-                </div>
-                <div class="col-md-4 text-start text-md-center text-lg-start ps-lg-5">
-                    <div class="impact-stat">24/7</div>
-                </div>
-                <div class="col-md-4 d-flex justify-content-md-start justify-content-lg-end">
-                    <p class="impact-text">Reach us anytime — 9837690770 or 9319128319 — for urgent dental care when you need it most.</p>
-                </div>
-            </div>
-
-        </div>
-
-    </div>
-</section>
 
 <section class="cases-section">
     <div class="container">
