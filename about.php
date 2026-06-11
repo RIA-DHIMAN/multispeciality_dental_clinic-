@@ -209,100 +209,161 @@
         <!-- Team Grid -->
         <div class="row g-4 justify-content-center">
             
-           <!-- Member 1: Orthodontist -->
-<div class="col-md-6 col-lg-4 scroll-up">
-    <div class="team-card h-100">
-        <div class="team-image-wrapper">
-            <img src="./images/team/1.png" alt="Dr. Ananya Sharma" class="team-photo">
-        </div>
-        <div class="team-body">
-            <div class="team-meta">
-                <h3 class="team-name">Dr. Ananya Sharma</h3>
-                <span class="team-designation">MDS, Orthodontist</span>
-            </div>
-            <p class="team-desc">
-                Specializing in digital smile corrections, Invisalign planning, and advanced interceptive jaw orthopedics for children and adults.
-            </p>
-            
-            <!-- Communication Interface Links -->
-            <div class="team-actions">
-                <a href="tel:+919837690770" class="team-action-btn" aria-label="Call Doctor">
-                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
-                    </svg>
-                </a>
-                <a href="mailto:ananya@digitalreach.digital" class="team-action-btn" aria-label="Email Doctor">
-                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
-                        <polyline points="22,6 12,13 2,6"/>
-                    </svg>
-                </a>
-            </div>
-        </div>
-    </div>
-</div>
+            <!-- Member 1: Dr. Pradeep Raghav -->
+            <!-- <div class="col-md-6 col-lg-4 scroll-up">
+                <div class="team-card h-100">
+                    <div class="team-image-wrapper">
+                        <img src="./images/team/1.png" alt="Dr. Pradeep Raghav" class="team-photo">
+                    </div>
+                    <div class="team-body">
+                        <div class="team-meta">
+                            <h3 class="team-name">Dr. Pradeep Raghav</h3>
+                            <span class="team-designation">BDS, MDS Orthodontics (1998)</span>
+                        </div>
+                        <p class="team-desc">
+                            Specializing in Orthodontics and Dentofacial Orthopedics. Graduated from King George Medical College with 27 years of extensive clinical experience.
+                        </p>
+                        <div class="team-actions">
+                            <a href="tel:+919837690770" class="team-action-btn" aria-label="Call Doctor">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1 2 1.72z"/>
+                                </svg>
+                            </a>
+                            <a href="mailto:pradeep@digitalreach.digital" class="team-action-btn" aria-label="Email Doctor">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                                    <polyline points="22,6 12,13 2,6"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
 
-<!-- Member 2: Oral Surgeon -->
-<div class="col-md-6 col-lg-4 scroll-up">
-    <div class="team-card h-100">
-        <div class="team-image-wrapper">
-            <img src="./images/team/2.png" alt="Dr. Rohan Malhotra" class="team-photo">
-        </div>
-        <div class="team-body">
-            <div class="team-meta">
-                <h3 class="team-name">Dr. Rohan Malhotra</h3>
-                <span class="team-designation">MDS, Maxillofacial Surgeon</span>
+            <!-- Member 2: Dr. Santosh Kumar Kumhar -->
+            <div class="col-md-6 col-lg-3 scroll-up">
+                <div class="team-card h-100">
+                    <div class="team-image-wrapper">
+                        <img src="./images/team/2.png" alt="Dr. Santosh Kumar Kumhar" class="team-photo">
+                    </div>
+                    <div class="team-body">
+                        <div class="team-meta">
+                            <h3 class="team-name">Dr. Santosh Kumar Kumhar</h3>
+                            <span class="team-designation">BDS, MDS Oral & Maxillofacial Surgeon</span>
+                        </div>
+                        <p class="team-desc">
+                            B.D.S from MRDC Faridabad (2007-2012) and M.D.S from IDST Modinagar (2013-2016). Specializes in complex extractions and facial trauma surgery.
+                        </p>
+                        <div class="team-actions">
+                            <a href="tel:+919837690770" class="team-action-btn" aria-label="Call Doctor">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1 2 1.72z"/>
+                                </svg>
+                            </a>
+                            <a href="mailto:santosh@digitalreach.digital" class="team-action-btn" aria-label="Email Doctor">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                                    <polyline points="22,6 12,13 2,6"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <p class="team-desc">
-                Expertise in complex surgical extractions, impactive wisdom tooth treatments, and computer-guided bone grafting.
-            </p>
-            <div class="team-actions">
-                <a href="tel:+919837690770" class="team-action-btn" aria-label="Call Doctor">
-                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
-                    </svg>
-                </a>
-                <a href="mailto:rohan@digitalreach.digital" class="team-action-btn" aria-label="Email Doctor">
-                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
-                        <polyline points="22,6 12,13 2,6"/>
-                    </svg>
-                </a>
-            </div>
-        </div>
-    </div>
-</div>
 
-<!-- Member 3: Endodontist -->
-<div class="col-md-6 col-lg-4 scroll-up">
-    <div class="team-card h-100">
-        <div class="team-image-wrapper">
-            <img src="./images/team/3.png" alt="Dr. Vikram Aditya" class="team-photo">
-        </div>
-        <div class="team-body">
-            <div class="team-meta">
-                <h3 class="team-name">Dr. Vikram Aditya</h3>
-                <span class="team-designation">MDS, Root Canal Specialist</span>
+            <!-- Member 3: Dr. Sunaina Saraswat -->
+            <div class="col-md-6 col-lg-3 scroll-up">
+                <div class="team-card h-100">
+                    <div class="team-image-wrapper">
+                        <img src="./images/team/3.png" alt="Dr. Sunaina Saraswat" class="team-photo">
+                    </div>
+                    <div class="team-body">
+                        <div class="team-meta">
+                            <h3 class="team-name">Dr. Sunaina Saraswat</h3>
+                            <span class="team-designation">B.D.S, Dental Surgeon</span>
+                        </div>
+                        <p class="team-desc">
+                            Completed her B.D.S tracking from 2014–2019 at IDST Modinagar, Ghaziabad. Expert in root fillings, restorative work, and preventive medicine.
+                        </p>
+                        <div class="team-actions">
+                            <a href="tel:+919837690770" class="team-action-btn" aria-label="Call Doctor">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1 2 1.72z"/>
+                                </svg>
+                            </a>
+                            <a href="mailto:sunaina@digitalreach.digital" class="team-action-btn" aria-label="Email Doctor">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                                    <polyline points="22,6 12,13 2,6"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <p class="team-desc">
-                Focused entirely on microscopic painless root canal therapy (RCT), dental trauma management, and restorative crowns.
-            </p>
-            <div class="team-actions">
-                <a href="tel:+919837690770" class="team-action-btn" aria-label="Call Doctor">
-                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
-                    </svg>
-                </a>
-                <a href="mailto:vikram@digitalreach.digital" class="team-action-btn" aria-label="Email Doctor">
-                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
-                        <polyline points="22,6 12,13 2,6"/>
-                    </svg>
-                </a>
+
+            <!-- Member 4: Dr. Shreya -->
+            <div class="col-md-6 col-lg-3 scroll-up">
+                <div class="team-card h-100">
+                    <div class="team-image-wrapper">
+                        <img src="./images/team/4.png" alt="Dr. Shreya" class="team-photo">
+                    </div>
+                    <div class="team-body">
+                        <div class="team-meta">
+                            <h3 class="team-name">Dr. Shreya</h3>
+                            <span class="team-designation">B.D.S, Periodontist & Implantologist</span>
+                        </div>
+                        <p class="team-desc">
+                            Clinical practitioner specializing comprehensively in surgical implant placements, bone management, and comprehensive periodontal gum health therapies.
+                        </p>
+                        <div class="team-actions">
+                            <a href="tel:+919837690770" class="team-action-btn" aria-label="Call Doctor">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1 2 1.72z"/>
+                                </svg>
+                            </a>
+                            <a href="mailto:shreya@digitalreach.digital" class="team-action-btn" aria-label="Email Doctor">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                                    <polyline points="22,6 12,13 2,6"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
-    </div>
-</div>
+
+            <!-- Member 5: Dr. Akash Raj -->
+            <div class="col-md-6 col-lg-3 scroll-up">
+                <div class="team-card h-100">
+                    <div class="team-image-wrapper">
+                        <img src="./images/team/5.png" alt="Dr. Akash Raj" class="team-photo">
+                    </div>
+                    <div class="team-body">
+                        <div class="team-meta">
+                            <h3 class="team-name">Dr. Akash Raj</h3>
+                            <span class="team-designation">B.D.S (BHU), M.D.S Prosthodontist & Implantologist</span>
+                        </div>
+                        <p class="team-desc">
+                            Earned his B.D.S from BHU (2009–2014) and M.D.S from IDST Modinagar (2017–2020). Specializes in crowns, bridges, and advanced full-mouth restorations.
+                        </p>
+                        <div class="team-actions">
+                            <a href="tel:+919837690770" class="team-action-btn" aria-label="Call Doctor">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1 2 1.72z"/>
+                                </svg>
+                            </a>
+                            <a href="mailto:akash@digitalreach.digital" class="team-action-btn" aria-label="Email Doctor">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                                    <polyline points="22,6 12,13 2,6"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
 </section>
