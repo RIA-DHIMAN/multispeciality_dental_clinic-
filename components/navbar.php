@@ -4,8 +4,8 @@
             <div class="container-fluid px-0">
                 <a class="navbar-brand d-flex align-items-center gap-2" href="#">
                     <div style="display:flex; flex-direction:column; line-height:1.2;">
-                        <span style="font-size:20px; font-weight:600;">Dr. Avneesh Tyagi</span>
-                        <span style="font-size:11px; font-weight:900; letter-spacing:0.06em;color:#0f2a44">Multispeciality Dental Clinic</span>
+                        <span style="font-size:34px; font-weight:600;">Dr. Avneesh Tyagi</span>
+                        <span style="font-size:11px; font-weight:900; letter-spacing:0.06em;color:#0f2a44">Multispeciality Dental Care Clinic & Implant Center</span>
                     </div>
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">

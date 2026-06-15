@@ -102,7 +102,7 @@
             <span class="badge-about">About Us</span>
             
             <h2 class="about-heading scroll-up">
-                Located at 4, K.N. Modi Complex, Near: P.N.B, Modinagar, we've built a reputation on one principle — every patient deserves precision, comfort, and complete transparency. 
+                Located at Shop no. 3 & 4 , K.N. Modi Complex, Near P.N.B., Modinagar, we've built a reputation on one principle — every patient deserves precision, comfort, and complete transparency. 
                 <span class="text-dimmed">From your first consultation to your final follow-up, we're with you every step of the way.</span>
             </h2>
 
@@ -275,13 +275,11 @@
 <!-- ========================================== -->
 <!--       PREMIUM CLINICAL DIRECTORS SECTION   -->
 <!-- ========================================== -->
-<section class="doctor-section py-5 position-relative overflow-hidden">
-    <!-- Subtle Background Ambient Light (Premium Digital Accent) -->
+<!-- <section class="doctor-section py-5 position-relative overflow-hidden">
     <div class="dr-ambient-glow"></div>
 
     <div class="container position-relative" style="z-index: 2;">
-        
-        <!-- Section Header Layer -->
+    
         <div class="row align-items-end mb-5 scroll-up">
             <div class="col-md-7">
                 <span class="badge-dr-section mb-2 d-inline-block">Medical Leadership</span>
@@ -293,17 +291,13 @@
                 </p>
             </div>
         </div>
-
-        <!-- Full-Width Doctor Profile Card Component -->
        <div class="dr-profile-full-width scroll-up">
     <div class="row g-0 align-items-stretch">
         
-        <!-- Left Side: Cinematic Portrait Column -->
         <div class="col-lg-6 position-relative">
             <div class="dr-full-image-container">
                 <img src="https://i.pinimg.com/1200x/fe/da/86/feda86f97d839ea44399ac90e17e3af1.jpg" alt="Dr. Pradeep Raghav" class="dr-full-photo">
                 
-                <!-- Absolute Glass Status Indicator -->
                 <div class="dr-full-status">
                     <span class="status-pulse-dot"></span>
                     <span>Accepting New Patients • Orthodontist & Dentofacial Orthopedics</span>
@@ -311,7 +305,6 @@
             </div>
         </div>
 
-        <!-- Right Side: Deep Editorial Content Column -->
         <div class="col-lg-6 d-flex flex-column justify-content-center">
             <div class="dr-full-content-pane p-4 p-md-5">
                 
@@ -327,7 +320,6 @@
                     Dr. Pradeep Raghav is a highly experienced specialist in Orthodontics and Dentofacial Orthopedics. An alumnus of King George Medical College (Class of 1998), he brings over 27 years of clinical expertise to advanced smile corrections, malocclusion therapeutics, and jaw alignment transformations.
                 </p>
 
-                <!-- High-End Clinical Metrics Grid -->
                 <div class="row g-4 dr-full-metrics mb-5">
                     <div class="col-sm-4 col-6">
                         <div class="metric-block">
@@ -349,7 +341,6 @@
                     </div>
                 </div>
 
-                <!-- Call to Action Interface Buttons -->
                 <div class="dr-full-actions d-flex flex-wrap gap-3">
                     <a href="#book-appointment" class="btn-full-primary">
                         <span>Schedule Private Consultation</span>
@@ -372,7 +363,7 @@
 </div>
 
     </div>
-</section>
+</section> -->
 
 <section class="values-section">
     <div class="container">
@@ -665,8 +656,6 @@
 <!-- ========================================== -->
 <section class="team-section py-5 position-relative">
     <div class="container">
-        
-        <!-- Section Header -->
         <div class="row align-items-end mb-5 scroll-up">
             <div class="col-md-7">
                 <span class="badge-team-section mb-2 d-inline-block">Expert Panel</span>
@@ -679,11 +668,9 @@
             </div>
         </div>
 
-        <!-- Team Grid -->
         <div class="row g-4 justify-content-center">
             
-            <!-- Member 1: Dr. Pradeep Raghav -->
-            <!-- <div class="col-md-6 col-lg-4 scroll-up">
+            <div class="col-md-6 col-lg-4 scroll-up">
                 <div class="team-card h-100">
                     <div class="team-image-wrapper">
                         <img src="./images/team/1.png" alt="Dr. Pradeep Raghav" class="team-photo">
@@ -711,10 +698,8 @@
                         </div>
                     </div>
                 </div>
-            </div> -->
-
-            <!-- Member 2: Dr. Santosh Kumar Kumhar -->
-            <div class="col-md-6 col-lg-3 scroll-up">
+            </div>
+            <div class="col-md-6 col-lg-4 scroll-up">
                 <div class="team-card h-100">
                     <div class="team-image-wrapper">
                         <img src="./images/team/2.png" alt="Dr. Santosh Kumar Kumhar" class="team-photo">
@@ -745,7 +730,7 @@
             </div>
 
             <!-- Member 3: Dr. Sunaina Saraswat -->
-            <div class="col-md-6 col-lg-3 scroll-up">
+            <div class="col-md-6 col-lg-4 scroll-up">
                 <div class="team-card h-100">
                     <div class="team-image-wrapper">
                         <img src="./images/team/3.png" alt="Dr. Sunaina Saraswat" class="team-photo">
@@ -776,7 +761,7 @@
             </div>
 
             <!-- Member 4: Dr. Shreya -->
-            <div class="col-md-6 col-lg-3 scroll-up">
+            <div class="col-md-6 col-lg-4 scroll-up">
                 <div class="team-card h-100">
                     <div class="team-image-wrapper">
                         <img src="./images/team/4.png" alt="Dr. Shreya" class="team-photo">
@@ -807,7 +792,7 @@
             </div>
 
             <!-- Member 5: Dr. Akash Raj -->
-            <div class="col-md-6 col-lg-3 scroll-up">
+            <div class="col-md-6 col-lg-4 scroll-up">
                 <div class="team-card h-100">
                     <div class="team-image-wrapper">
                         <img src="./images/team/5.png" alt="Dr. Akash Raj" class="team-photo">

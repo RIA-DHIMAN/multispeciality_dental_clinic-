@@ -25,12 +25,12 @@
             <div class="footer-brand-side">
                 <a href="#" class="footer-logo">
                     <div style="display:flex; flex-direction:column; line-height:1.2;">
-                        <span style="font-size:20px; font-weight:600;">Dr. Avneesh Tyagi</span>
-                        <span style="font-size:10px; font-weight:300; opacity:0.7; letter-spacing:0.06em;">Multispeciality Dental Clinic</span>
+                        <span style="font-size:30px; font-weight:600;">Dr. Avneesh Tyagi</span>
+                        <span style="font-size:10px; font-weight:300; opacity:0.7; letter-spacing:0.06em;">Multispeciality Dental Care Clinic & Implant Center</span>
                     </div>
                 </a>
                 <p class="footer-desc">
-                    BDS, Certified Implantologist &amp; Cosmetic Dentist. Located at 4, K.N. Modi Complex, Near P.N.B., Modinagar. Open Mon–Sat, 9:30 AM–2 PM &amp; 5:30–8 PM. Emergency: 9837690770.
+                    BDS, Certified Implantologist &amp; Cosmetic Dentist. Shop no. 3 & 4 , K.N. Modi Complex, Near P.N.B., Modinagar. Open Mon–Sat, 9:30 AM–2 PM &amp; 5:30–8 PM. Emergency: 9837690770.
                 </p>
             </div>
 
@@ -50,7 +50,8 @@
         <div class="footer-bottom-signature-row">
             
             <div class="text-nowrap">
-                &copy; Dr. Avneesh Tyagi's Dental Clinic
+                &copy; Dr. Avneesh Tyagi Multispeciality Dental Care Clinic & Implant Center
+
             </div>
 
             <div class="signature-line-divider"></div>
