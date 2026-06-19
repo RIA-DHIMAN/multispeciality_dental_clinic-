@@ -192,8 +192,6 @@
 <!-- ========================================== -->
 <section class="team-section py-5 position-relative">
     <div class="container">
-        
-        <!-- Section Header -->
         <div class="row align-items-end mb-5 scroll-up">
             <div class="col-md-7">
                 <span class="badge-team-section mb-2 d-inline-block">Expert Panel</span>
@@ -206,11 +204,9 @@
             </div>
         </div>
 
-        <!-- Team Grid -->
         <div class="row g-4 justify-content-center">
             
-            <!-- Member 1: Dr. Pradeep Raghav -->
-            <!-- <div class="col-md-6 col-lg-4 scroll-up">
+            <div class="col-md-6 col-lg-4 scroll-up">
                 <div class="team-card h-100">
                     <div class="team-image-wrapper">
                         <img src="./images/team/1.png" alt="Dr. Pradeep Raghav" class="team-photo">
@@ -238,10 +234,8 @@
                         </div>
                     </div>
                 </div>
-            </div> -->
-
-            <!-- Member 2: Dr. Santosh Kumar Kumhar -->
-            <div class="col-md-6 col-lg-3 scroll-up">
+            </div>
+            <div class="col-md-6 col-lg-4 scroll-up">
                 <div class="team-card h-100">
                     <div class="team-image-wrapper">
                         <img src="./images/team/2.png" alt="Dr. Santosh Kumar Kumhar" class="team-photo">
@@ -272,7 +266,7 @@
             </div>
 
             <!-- Member 3: Dr. Sunaina Saraswat -->
-            <div class="col-md-6 col-lg-3 scroll-up">
+            <div class="col-md-6 col-lg-4 scroll-up">
                 <div class="team-card h-100">
                     <div class="team-image-wrapper">
                         <img src="./images/team/3.png" alt="Dr. Sunaina Saraswat" class="team-photo">
@@ -303,7 +297,7 @@
             </div>
 
             <!-- Member 4: Dr. Shreya -->
-            <div class="col-md-6 col-lg-3 scroll-up">
+            <div class="col-md-6 col-lg-4 scroll-up">
                 <div class="team-card h-100">
                     <div class="team-image-wrapper">
                         <img src="./images/team/4.png" alt="Dr. Shreya" class="team-photo">
@@ -334,7 +328,7 @@
             </div>
 
             <!-- Member 5: Dr. Akash Raj -->
-            <div class="col-md-6 col-lg-3 scroll-up">
+            <div class="col-md-6 col-lg-4 scroll-up">
                 <div class="team-card h-100">
                     <div class="team-image-wrapper">
                         <img src="./images/team/5.png" alt="Dr. Akash Raj" class="team-photo">

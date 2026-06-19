@@ -1,16 +1,17 @@
 :root {
+    
     /* === HEALTHCARE-MODERN COLOR PALETTE === */
     /* Primary: Deep Navy (trust, expertise) */
-    --primary-color: #0F2A44;
+    --primary-color: #081c42;
     --primary-hover: #11375a;
-    --dark-navy: #0F2A44;
+    --dark-navy: #081c42;
     
     /* Secondary: Mint Green (calm, freshness) */
     --secondary-color: #A8D8C9;
     --secondary-light: #d4f0ea;
     
     /* Accent: Warm Gold (premium feel) */
-    --accent-gold: #C8A964;
+    --accent-gold: #A8D8C9;
     --accent-gold-light: #e8d9c0;
     
     /* Neutral: Cream (warmth, approachability) */
@@ -25,7 +26,7 @@
     --text-light: #ffffff;
     --text-muted: rgba(255, 255, 255, 0.8);
     --text-dark: #1a1a1a;
-    --text-heading-dark: #0F2A44;
+    --text-heading-dark: #081c42;
     --text-desc-gray: #5a6b7f;
     --text-muted-gray: rgba(15, 42, 68, 0.6);
     
@@ -55,7 +56,7 @@
     --grid-gap: 30px;
     
     /* Premium Accent Variables */
-    --primary-blue: #0F2A44;
+    --primary-blue: #081c42;
 }
 
 body {
@@ -3148,7 +3149,7 @@ body {
     font-size: 0.75rem;
     text-transform: uppercase;
     letter-spacing: 0.15em;
-    color: var(--text-accent, #cfb997); /* Adjust brand accent tint here */
+    color: var(--text-accent, #A8D8C9); /* Adjust brand accent tint here */
     font-weight: 700;
 }
 
@@ -3334,7 +3335,7 @@ body {
     font-size: 0.75rem;
     text-transform: uppercase;
     letter-spacing: 0.15em;
-    color: var(--text-accent, #cfb997);
+    color: var(--text-accent, #A8D8C9);
     font-weight: 700;
 }
 
@@ -3466,8 +3467,8 @@ body {
     height: 48px;
     border-radius: 14px;
        background: rgb(5 30 53);
-    border: 1px solid rgb(199 168 100);
-    color: #c7a864;
+    border: 1px solid #A8D8C9;
+    color: #A8D8C9;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -3497,7 +3498,7 @@ body {
 .scroll-to-top-btn:hover {
    border-radius: 14px;
        background: rgb(5 30 53);
-    border: 1px solid rgb(199 168 100);
+    border: 1px solid #A8D8C9;
 }
 
 .scroll-to-top-btn:active {
@@ -3530,7 +3531,7 @@ body {
     font-size: 0.75rem;
     text-transform: uppercase;
     letter-spacing: 0.15em;
-    color: var(--text-accent, #cfb997);
+    color: var(--text-accent, #A8D8C9);
     font-weight: 700;
 }
 
@@ -3586,7 +3587,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: var(--text-accent, #cfb997);
+    color: var(--text-accent, #A8D8C9);
     transition: background-color 0.3s ease;
 }
 
