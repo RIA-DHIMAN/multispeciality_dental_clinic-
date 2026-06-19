@@ -49,7 +49,7 @@
         <!-- Lower Signature Row -->
         <div class="footer-bottom-signature-row">
             
-            <div class="text-nowrap">
+            <div class="">
                 &copy; Dr. Avneesh Tyagi Multispeciality Dental Care Clinic & Implant Center
 
             </div>

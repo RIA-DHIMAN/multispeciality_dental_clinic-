@@ -502,6 +502,14 @@ body {
 
 @media (max-width: 575.98px) {
     .about-heading { font-size: 24px; }
+    .name{
+        font-size: 25px !important;    }
+        .nametext{
+            font-size: 8px !important;
+        }
+        .navbar{
+            margin-top: 20px;
+        }
 }
 
 /* ======================== VALUES SECTION ======================== */
@@ -1968,7 +1976,7 @@ body {
 
         .footer-link {
             color: var(--text-light);
-            font-size: 16px;
+            font-size: 15px;
             font-weight: 500;
             text-decoration: none;
             opacity: 0.8;

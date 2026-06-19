@@ -29,7 +29,6 @@
                 </div>
             </div>
         </div>
-       
     <div class="hero-container mt-0 pt-0 p-4 p-md-5">
         
         <?php include "./components/navbar.php" ?>
