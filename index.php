@@ -15,20 +15,98 @@
         
         <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
             <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <div class="hero-bg-slide" style="background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), url('./images/bg2.png');"></div>
-                </div>
-                <div class="carousel-item">
-                    <div class="hero-bg-slide" style="background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), url('./images/bg3.png');"></div>
-                </div>
-                <div class="carousel-item">
-                    <div class="hero-bg-slide" style="background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), url('./images/bg4.png');"></div>
-                </div>
-                <div class="carousel-item">
-                    <div class="hero-bg-slide" style="background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), url('./images/bg5.png');"></div>
-                </div>
+              <div class="carousel-item active">
+    <div class="hero-bg-slide slide1"></div>
+</div>
+
+<div class="carousel-item">
+    <div class="hero-bg-slide slide2"></div>
+</div>
+
+<div class="carousel-item">
+    <div class="hero-bg-slide slide3"></div>
+</div>
+
+<div class="carousel-item">
+    <div class="hero-bg-slide slide4"></div>
+</div>
             </div>
         </div>
+        <style>
+            .hero-bg-slide{
+    width:100%;
+    height:100%;
+    background-size:cover;
+    background-position:top     center;
+    background-repeat:no-repeat;
+}
+
+/* Desktop Images */
+.slide1{
+    background-image:linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0)),
+    url('./images/sliders/desk-1.jpeg');
+}
+
+.slide2{
+    background-image:linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0)),
+    url('./images/sliders/desk-1.jpeg');
+}
+
+.slide3{
+    background-image:linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0)),
+    url('./images/sliders/desk-1.jpeg');
+}
+
+.slide4{
+    background-image:linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0)),
+    url('./images/sliders/desk-1.jpeg');
+}
+
+/* Mobile Images */
+@media (max-width: 768px){
+
+    .slide1{
+        background-image:linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0)),
+        url('./images/sliders/mob-1.jpeg');
+    }
+
+    .slide2{
+        background-image:linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0)),
+        url('./images/sliders/mob-1.jpeg');
+    }
+
+    .slide3{
+        background-image:linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0)),
+        url('./images/sliders/mob-1.jpeg');
+    }
+
+    .slide4{
+        background-image:linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0)),
+        url('./images/sliders/mob-1.jpeg');
+    }
+}
+        </style>
+        <script>
+document.addEventListener("DOMContentLoaded", function () {
+    const isMobile = window.innerWidth <= 768;
+
+    const slides = document.querySelectorAll(".hero-bg-slide");
+
+    if (isMobile) {
+        slides[0].style.backgroundImage =
+            "linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.3)), url('./images/sliders/mob-1.jpeg')";
+
+        slides[1].style.backgroundImage =
+            "linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.3)), url('./images/sliders/mob-1.jpeg')";
+
+        slides[2].style.backgroundImage =
+            "linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.3)), url('./images/sliders/mob-1.jpeg')";
+
+        slides[3].style.backgroundImage =
+            "linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.3)), url('./images/sliders/mob-1.jpeg')";
+    }
+});
+</script>
     <div class="hero-container mt-0 pt-0 p-4 p-md-5">
         
         <?php include "./components/navbar.php" ?>
@@ -36,7 +114,7 @@
         <div class="row hero-content align-items-end">
             <div class="col-lg-8">
                 
-                <div class="d-flex align-items-start gap-3 mb-4 scroll-up">
+                <!-- <div class="d-flex align-items-start gap-3 mb-4 scroll-up">
                     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="text-white-50 mt-1">
                         <path d="M12 2v20M2 12h20M5.63 5.63l12.74 12.74M5.63 18.37L18.37 5.63"/>
                     </svg>
@@ -56,7 +134,7 @@
                 <p class="hero-desc mb-0 scroll-up">
                     Led by Dr. Avneesh Tyagi — BDS, Certified Implantologist & Cosmetic Dentist. ✨ 
                     An infection-free, ultra-modern clinic built for comfort, precision, and lasting results.
-                </p>
+                </p> -->
             </div>
 
             <div class="col-lg-4 position-relative scroll-up">
@@ -64,7 +142,7 @@
                 <div class="review-card">
                     <div class="review-rating mb-2">
                         4.9
-                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" class="text-white">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" class="svg" style=" color: #081c42;">
                             <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/>
                         </svg>
                     </div>
