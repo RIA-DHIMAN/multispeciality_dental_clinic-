@@ -27,63 +27,55 @@
     <div class="hero-bg-slide slide3"></div>
 </div>
 
-<div class="carousel-item">
-    <div class="hero-bg-slide slide4"></div>
-</div>
+
             </div>
         </div>
         <style>
             .hero-bg-slide{
     width:100%;
     height:100%;
-    background-size:cover;
-    background-position:top     center;
+    background-size:cover   ;
+    background-position:top center;
     background-repeat:no-repeat;
 }
 
 /* Desktop Images */
 .slide1{
     background-image:linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0)),
-    url('./images/sliders/desk-1.jpeg');
+    url('./images/sliders/desk-1.png');
 }
 
 .slide2{
     background-image:linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0)),
-    url('./images/sliders/desk-1.jpeg');
+    url('./images/sliders/desk-2.png');
 }
 
 .slide3{
     background-image:linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0)),
-    url('./images/sliders/desk-1.jpeg');
+    url('./images/sliders/desk-3.png');
 }
 
-.slide4{
-    background-image:linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0)),
-    url('./images/sliders/desk-1.jpeg');
-}
+
 
 /* Mobile Images */
 @media (max-width: 768px){
 
     .slide1{
         background-image:linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0)),
-        url('./images/sliders/mob-1.jpeg');
+        url('./images/sliders/mob-1.png');
     }
 
     .slide2{
         background-image:linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0)),
-        url('./images/sliders/mob-1.jpeg');
+        url('./images/sliders/mob-2.png');
     }
 
     .slide3{
         background-image:linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0)),
-        url('./images/sliders/mob-1.jpeg');
+        url('./images/sliders/mob-3.png');
     }
 
-    .slide4{
-        background-image:linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0)),
-        url('./images/sliders/mob-1.jpeg');
-    }
+   
 }
         </style>
         <script>
@@ -94,16 +86,14 @@ document.addEventListener("DOMContentLoaded", function () {
 
     if (isMobile) {
         slides[0].style.backgroundImage =
-            "linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.3)), url('./images/sliders/mob-1.jpeg')";
+            "linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.3)), url('./images/sliders/mob-1.png')";
 
         slides[1].style.backgroundImage =
-            "linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.3)), url('./images/sliders/mob-1.jpeg')";
+            "linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.3)), url('./images/sliders/mob-2.png')";
 
         slides[2].style.backgroundImage =
-            "linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.3)), url('./images/sliders/mob-1.jpeg')";
+            "linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.3)), url('./images/sliders/mob-3.png')";
 
-        slides[3].style.backgroundImage =
-            "linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.3)), url('./images/sliders/mob-1.jpeg')";
     }
 });
 </script>
