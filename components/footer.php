@@ -25,8 +25,9 @@
             <div class="footer-brand-side">
                 <a href="#" class="footer-logo">
                     <div style="display:flex; flex-direction:column; line-height:1.2;">
-                        <span style="font-size:30px; font-weight:600;">Dr. Avneesh Tyagi</span>
-                        <span style="font-size:10px; font-weight:300; opacity:0.7; letter-spacing:0.06em;">Multispeciality Dental Care Clinic & Implant Center</span>
+                        <img class="img-fluid footerlogo" width="400" src="./images/LOGO.png" alt="logo">
+                        <!-- <span style="font-size:30px; font-weight:600;">Dr. Avneesh Tyagi</span>
+                        <span style="font-size:10px; font-weight:300; opacity:0.7; letter-spacing:0.06em;">Multispeciality Dental Care Clinic & Implant Center</span> -->
                     </div>
                 </a>
                 <p class="footer-desc">

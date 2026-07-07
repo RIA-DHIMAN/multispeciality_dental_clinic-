@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dr. Avneesh Tyagi's Multispeciality Dental Care Clinic</title>
+    <title>Dr. Avneesh Tyagi's Multispeciality Dental Care Clinic & Implant Center</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
@@ -41,7 +41,7 @@
 
 /* Desktop Images */
 .slide1{
-    background-image:linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0)),
+    background-image:linear-gradient(rgba(72, 138, 189, 0.52),rgba(0, 0, 0, 0)),
     url('./images/sliders/desk-1.png');
 }
 
@@ -61,7 +61,7 @@
 @media (max-width: 768px){
 
     .slide1{
-        background-image:linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0)),
+        background-image:linear-gradient(rgba(72, 138, 189, 0.52),rgba(0, 0, 0, 0)),
         url('./images/sliders/mob-1.png');
     }
 
@@ -86,13 +86,13 @@ document.addEventListener("DOMContentLoaded", function () {
 
     if (isMobile) {
         slides[0].style.backgroundImage =
-            "linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.3)), url('./images/sliders/mob-1.png')";
+            "linear-gradient(rgba(72, 138, 189, 0.52),rgba(0, 0, 0, 0)), url('./images/sliders/mob-1.png')";
 
         slides[1].style.backgroundImage =
-            "linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.3)), url('./images/sliders/mob-2.png')";
+            "linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0)), url('./images/sliders/mob-2.png')";
 
         slides[2].style.backgroundImage =
-            "linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.3)), url('./images/sliders/mob-3.png')";
+            "linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0)), url('./images/sliders/mob-3.png')";
 
     }
 });

@@ -4,8 +4,9 @@
             <div class="container-fluid px-0">
                 <a class="navbar-brand d-flex align-items-center gap-2" href="#">
                     <div style="display:flex; flex-direction:column; line-height:1.2;">
-                        <span style="font-size:34px; color:#0d56b7; font-weight: bolder;" class="name">Dr. Avneesh Tyagi</span>
-                        <span style="font-size:11px; font-weight:900; letter-spacing:0.06em;color:#0f2a44" class="nametext">Multispeciality Dental Care Clinic & Implant Center</span>
+                        <img class="img-fluid logo" width="400" src="./images/LOGO.png" alt="logo">
+                        <!-- <span style="font-size:34px; color:#0d56b7; font-weight: bolder;" class="name">Dr. Avneesh Tyagi</span>
+                        <span style="font-size:11px; font-weight:900; letter-spacing:0.06em;color:#0f2a44" class="nametext">Multispeciality Dental Care Clinic & Implant Center</span> -->
                     </div>
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
@@ -13,11 +14,11 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav mx-auto">
-                        <li class="nav-item"><a class="nav-link active" href="./index.php">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="./about.php">About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="./blogs.php">Blogs</a></li>
-                        <li class="nav-item"><a class="nav-link" href="./contact-us.php">Contact Us</a></li>
-                     
+                        <?php $current_page = basename($_SERVER['PHP_SELF']); ?>
+                        <li class="nav-item"><a class="nav-link <?php echo ($current_page == 'index.php' || $current_page == '') ? 'active' : ''; ?>" href="./index.php">Home</a></li>
+                        <li class="nav-item"><a class="nav-link <?php echo ($current_page == 'about.php') ? 'active' : ''; ?>" href="./about.php">About</a></li>
+                        <li class="nav-item"><a class="nav-link <?php echo ($current_page == 'blogs.php' || $current_page == 'blog-detail.php') ? 'active' : ''; ?>" href="./blogs.php">Blogs</a></li>
+                        <li class="nav-item"><a class="nav-link <?php echo ($current_page == 'contact-us.php') ? 'active' : ''; ?>" href="./contact-us.php">Contact Us</a></li>
                     </ul>
                     
                     <a href="tel:9457528557" class="btn btn-book">
