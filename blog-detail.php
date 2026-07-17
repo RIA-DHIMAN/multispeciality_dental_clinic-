@@ -23,7 +23,6 @@ $post_category = "Dental Care";
 $post_img = "image_80c603.jpg"; // fallback
 $categories_list = [];
 $related_posts = [];
-$toc_data = array('toc' => '', 'content' => '');
 
 if (!function_exists('generate_toc_and_modify_content')) {
     function generate_toc_and_modify_content($content) {
@@ -50,6 +49,8 @@ if (!function_exists('generate_toc_and_modify_content')) {
     }
 }
 
+$toc_data = array('toc' => '', 'content' => '');
+
 if ($wordpress_installed) {
     define('WP_USE_THEMES', false);
     require_once(__DIR__ . '/blogs/wp-load.php');
@@ -64,6 +65,7 @@ if ($wordpress_installed) {
     $post_slug = isset($_GET['slug']) ? sanitize_title($_GET['slug']) : '';
     $post_id = isset($_GET['id']) ? intval($_GET['id']) : 0;
     
+    $wp_post = null;
     if ($post_slug) {
         $posts_query = get_posts([
             'name' => $post_slug,
@@ -78,47 +80,47 @@ if ($wordpress_installed) {
     } else if ($post_id > 0) {
         $wp_post = get_post($post_id);
     }
-    
-    if (isset($wp_post) && $wp_post && $wp_post->post_status == 'publish') {
-            $post_found = true;
-            $post_title = $wp_post->post_title;
-            $post_excerpt = $wp_post->post_excerpt ? $wp_post->post_excerpt : wp_trim_words($wp_post->post_content, 30);
-            $post_content = apply_filters('the_content', $wp_post->post_content);
-            $toc_data = generate_toc_and_modify_content($post_content);
-            $post_date = get_the_date('F j, Y', $wp_post);
-            $post_year_month = get_the_date('F Y', $wp_post);
-            
-            $post_cats = get_the_category($wp_post->ID);
-            $post_category = !empty($post_cats) ? $post_cats[0]->name : 'Dental Care';
-            
-            $feat_img = get_post_meta($wp_post->ID, 'featured_image_url', true);
-            if (empty($feat_img)) {
-                $feat_img = get_the_post_thumbnail_url($wp_post->ID, 'full');
-            }
-            if (!empty($feat_img)) {
-                $post_img = $feat_img;
-            }
 
-            // Fetch related posts
-            $related_args = [
-                'post_type' => 'post',
-                'post_status' => 'publish',
-                'posts_per_page' => 3,
-                'post__not_in' => [$wp_post->ID],
-                'orderby' => 'rand'
-            ];
-            if (!empty($post_cats)) {
-                $related_args['category__in'] = wp_list_pluck($post_cats, 'term_id');
-            }
-            $related_posts = get_posts($related_args);
+    if (isset($wp_post) && $wp_post && $wp_post->post_status == 'publish') {
+        $post_found = true;
+        $post_title = $wp_post->post_title;
+        $post_excerpt = $wp_post->post_excerpt ? $wp_post->post_excerpt : wp_trim_words($wp_post->post_content, 30);
+        $post_content = apply_filters('the_content', $wp_post->post_content);
+        $toc_data = generate_toc_and_modify_content($post_content);
+        $post_date = get_the_date('F j, Y', $wp_post);
+        $post_year_month = get_the_date('F Y', $wp_post);
+        
+        $post_cats = get_the_category($wp_post->ID);
+        $post_category = !empty($post_cats) ? $post_cats[0]->name : 'Dental Care';
+        
+        $feat_img = get_post_meta($wp_post->ID, 'featured_image_url', true);
+        if (empty($feat_img)) {
+            $feat_img = get_the_post_thumbnail_url($wp_post->ID, 'full');
         }
+        if (!empty($feat_img)) {
+            $post_img = $feat_img;
+        }
+
+        // Fetch related posts
+        $related_args = [
+            'post_type' => 'post',
+            'post_status' => 'publish',
+            'posts_per_page' => 3,
+            'post__not_in' => [$wp_post->ID],
+            'orderby' => 'rand'
+        ];
+        if (!empty($post_cats)) {
+            $related_args['category__in'] = wp_list_pluck($post_cats, 'term_id');
+        }
+        $related_posts = get_posts($related_args);
+    }
 
     if (empty($related_posts) && $post_found) {
         $related_posts = get_posts([
             'post_type' => 'post',
             'post_status' => 'publish',
             'posts_per_page' => 3,
-            'post__not_in' => [$post_id],
+            'post__not_in' => [$wp_post->ID],
             'orderby' => 'date',
             'order' => 'DESC'
         ]);
@@ -139,7 +141,7 @@ if ($wordpress_installed) {
 <body>
 
 <div class="container-fluid">
-    <div class="hero-container p-4 p-md-5 pt-0 pt-md-0" style="background-image: linear-gradient(rgba(15, 42, 68, 0.45), rgba(15, 42, 68, 0.75)), url('<?php echo esc_url($post_img); ?>');">
+    <div class="hero-container p-4 p-md-5" style="background-image: linear-gradient(rgba(15, 42, 68, 0.45), rgba(15, 42, 68, 0.75)), url('<?php echo esc_url($post_img); ?>');">
         
         <!-- Top Navigation Component Wrapper Include -->
         <div class="w-100">
@@ -189,54 +191,7 @@ if ($wordpress_installed) {
         </div>
 
     </div>
-</div>
-<style>
-    /* Premium Back to Blogs Button */
-    .back-btn {
-        border-color: #0F2A44;
-        color: #0F2A44;
-        font-weight: 500;
-        transition: all 0.3s ease;
-        border-radius: var(--radius-pill);
-        padding: 8px 20px;
-        text-decoration: none;
-    }
-    .back-btn:hover {
-        background-color: #0F2A44;
-        color: #ffffff !important;
-        transform: translateX(-3px);
-    }
-    .back-btn svg {
-        transition: transform 0.3s ease;
-    }
-    .back-btn:hover svg {
-        transform: translateX(-2px);
-    }
-
-    /* Table of Contents Styling */
-    .toc-list {
-        padding-left: 0;
-    }
-    .toc-item {
-        border-left: 2px solid rgba(15, 42, 68, 0.05);
-        padding-left: 12px;
-        margin-left: 4px;
-        transition: border-color 0.2s ease;
-    }
-    .toc-item:hover {
-        border-color: var(--accent-color, #C8A964);
-    }
-    .toc-link {
-        color: #0F2A44;
-        opacity: 0.8;
-        font-size: 14.5px;
-        transition: opacity 0.2s ease, color 0.2s ease;
-    }
-    .toc-link:hover {
-        color: var(--accent-color, #C8A964) !important;
-        opacity: 1;
-    }
-
+</div><style>
     /* Styling specifically tuned to integrate seamlessly with your design tokens */
     .hero-container {
         font-family: var(--font-main);
@@ -680,17 +635,21 @@ if ($wordpress_installed) {
             .related-title { margin-bottom: 8px; }
             .related-desc { margin-bottom: 16px; -webkit-line-clamp: 3; }
         }
-</style><section class="blog-body-section">
+</style>
+
+<section class="blog-body-section">
     <div class="container">
         
         <!-- Back to Blogs button -->
         <div class="row mb-4">
             <div class="col-12">
-                <a href="./blogs.php" class="btn btn-outline-primary d-inline-flex align-items-center gap-2 back-btn">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                        <line x1="19" y1="12" x2="5" y2="12"></line>
-                        <polyline points="12 19 5 12 12 5"></polyline>
-                    </svg>
+                <a href="./blogs.php" class="btn btn-book back-btn d-inline-flex align-items-center gap-2">
+                    <span class="btn-arrow-circle bg-white text-dark">
+                        <svg viewBox="0 0 24 24" style="width: 12px; height: 12px; fill: none; stroke: currentColor; stroke-width: 3;">
+                            <line x1="19" y1="12" x2="5" y2="12"></line>
+                            <polyline points="12 19 5 12 12 5"></polyline>
+                        </svg>
+                    </span>
                     Back to Blogs
                 </a>
             </div>

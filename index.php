@@ -41,18 +41,18 @@
 
 /* Desktop Images */
 .slide1{
-    background-image:linear-gradient(rgba(72, 138, 189, 0.52),rgba(0, 0, 0, 0)),
-    url('./images/sliders/desk-1.png');
+    background-image:linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0)),
+    url('./images/sliders/d3.jpeg');
 }
 
 .slide2{
-    background-image:linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0)),
-    url('./images/sliders/desk-2.png');
+    background-image:linear-gradient(rgba(72, 138, 189, 0.52),rgba(0, 0, 0, 0)),
+    url('./images/sliders/d1.jpeg');
 }
 
 .slide3{
     background-image:linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0)),
-    url('./images/sliders/desk-3.png');
+    url('./images/sliders/d2.jpeg');
 }
 
 
@@ -62,21 +62,27 @@
 
     .slide1{
         background-image:linear-gradient(rgba(72, 138, 189, 0.52),rgba(0, 0, 0, 0)),
-        url('./images/sliders/mob-1.png');
+        url('./images/sliders/m3.jpeg');
+        
     }
 
     .slide2{
-        background-image:linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0)),
-        url('./images/sliders/mob-2.png');
+        background-image:linear-gradient(rgba(72, 138, 189, 0.52),rgba(0, 0, 0, 0)),
+        url('./images/sliders/mob-1.png');
     }
 
     .slide3{
-        background-image:linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0)),
-        url('./images/sliders/mob-3.png');
+        
+        background-image:linear-gradient(rgba(72, 138, 189, 0.52),rgba(0, 0, 0, 0)),
+        url('./images/sliders/m2.jpeg');
     }
-
-   
+.impact-card{
+        border: 1px solid lightgrey;
+    border-radius: 15px;
 }
+}
+   
+
         </style>
         <script>
 document.addEventListener("DOMContentLoaded", function () {
@@ -86,13 +92,13 @@ document.addEventListener("DOMContentLoaded", function () {
 
     if (isMobile) {
         slides[0].style.backgroundImage =
-            "linear-gradient(rgba(72, 138, 189, 0.52),rgba(0, 0, 0, 0)), url('./images/sliders/mob-1.png')";
+            "linear-gradient(rgba(72, 138, 189, 0.52),rgba(0, 0, 0, 0)), url('./images/sliders/m3.jpeg')";
 
         slides[1].style.backgroundImage =
-            "linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0)), url('./images/sliders/mob-2.png')";
+            "linear-gradient(rgba(72, 138, 189, 0.52),rgba(0, 0, 0, 0)), url('./images/sliders/mob-1.png')";
 
         slides[2].style.backgroundImage =
-            "linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0)), url('./images/sliders/mob-3.png')";
+            "linear-gradient(rgba(72, 138, 189, 0.52),rgba(0, 0, 0, 0)), url('./images/sliders/m2.jpeg')";
 
     }
 });
@@ -129,7 +135,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
             <div class="col-lg-4 position-relative scroll-up">
                 <!-- Glassmorphic Review Card Box -->
-                <div class="review-card">
+                <!-- <div class="review-card">
                     <div class="review-rating mb-2">
                         4.9
                         <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" class="svg" style=" color: #081c42;">
@@ -151,7 +157,7 @@ document.addEventListener("DOMContentLoaded", function () {
                             Happy<br>Patients
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
 
@@ -741,7 +747,7 @@ document.addEventListener("DOMContentLoaded", function () {
             <div class="col-md-6 col-lg-4 scroll-up">
                 <div class="team-card h-100">
                     <div class="team-image-wrapper">
-                        <img src="./images/team/1.png" alt="Dr. Pradeep Raghav" class="team-photo">
+                        <img src="https://i.pinimg.com/736x/86/fa/ba/86fabaae748b3424f43ec614de6bc96d.jpg" alt="Dr. Pradeep Raghav" class="team-photo">
                     </div>
                     <div class="team-body">
                         <div class="team-meta">
@@ -832,7 +838,7 @@ document.addEventListener("DOMContentLoaded", function () {
             <div class="col-md-6 col-lg-4 scroll-up">
                 <div class="team-card h-100">
                     <div class="team-image-wrapper">
-                        <img src="./images/team/4.png" alt="Dr. Shreya" class="team-photo">
+                        <img src="./images/team/1.png" alt="Dr. Shreya" class="team-photo">
                     </div>
                     <div class="team-body">
                         <div class="team-meta">
@@ -863,7 +869,7 @@ document.addEventListener("DOMContentLoaded", function () {
             <div class="col-md-6 col-lg-4 scroll-up">
                 <div class="team-card h-100">
                     <div class="team-image-wrapper">
-                        <img src="./images/team/5.png" alt="Dr. Akash Raj" class="team-photo">
+                        <img src="https://i.pinimg.com/736x/91/98/29/9198298e9fd4fd94a2c4a8c02ada35d6.jpg" alt="Dr. Akash Raj" class="team-photo">
                     </div>
                     <div class="team-body">
                         <div class="team-meta">

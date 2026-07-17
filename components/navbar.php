@@ -14,11 +14,11 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav mx-auto">
-                        <?php $current_page = basename($_SERVER['PHP_SELF']); ?>
-                        <li class="nav-item"><a class="nav-link <?php echo ($current_page == 'index.php' || $current_page == '') ? 'active' : ''; ?>" href="./index.php">Home</a></li>
-                        <li class="nav-item"><a class="nav-link <?php echo ($current_page == 'about.php') ? 'active' : ''; ?>" href="./about.php">About</a></li>
-                        <li class="nav-item"><a class="nav-link <?php echo ($current_page == 'blogs.php' || $current_page == 'blog-detail.php') ? 'active' : ''; ?>" href="./blogs.php">Blogs</a></li>
-                        <li class="nav-item"><a class="nav-link <?php echo ($current_page == 'contact-us.php') ? 'active' : ''; ?>" href="./contact-us.php">Contact Us</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="./index.php">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./about.php">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./blogs.php">Blogs</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./contact-us.php">Contact Us</a></li>
+                     
                     </ul>
                     
                     <a href="tel:9457528557" class="btn btn-book">

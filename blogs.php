@@ -183,7 +183,6 @@ if ($wordpress_installed) {
 
             </div>
         <?php endif; ?>
-
     </div>
 </section>
 <section class="insights-section">
@@ -310,7 +309,6 @@ if ($wordpress_installed) {
 
             </div>
         <?php endif; ?>
-
     </div>
 </section>
 

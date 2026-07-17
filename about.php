@@ -209,7 +209,7 @@
             <div class="col-md-6 col-lg-4 scroll-up">
                 <div class="team-card h-100">
                     <div class="team-image-wrapper">
-                        <img src="./images/team/1.png" alt="Dr. Pradeep Raghav" class="team-photo">
+                        <img src="https://i.pinimg.com/736x/86/fa/ba/86fabaae748b3424f43ec614de6bc96d.jpg" alt="Dr. Pradeep Raghav" class="team-photo">
                     </div>
                     <div class="team-body">
                         <div class="team-meta">
@@ -300,7 +300,7 @@
             <div class="col-md-6 col-lg-4 scroll-up">
                 <div class="team-card h-100">
                     <div class="team-image-wrapper">
-                        <img src="./images/team/4.png" alt="Dr. Shreya" class="team-photo">
+                        <img src="./images/team/1.png" alt="Dr. Shreya" class="team-photo">
                     </div>
                     <div class="team-body">
                         <div class="team-meta">
@@ -331,7 +331,7 @@
             <div class="col-md-6 col-lg-4 scroll-up">
                 <div class="team-card h-100">
                     <div class="team-image-wrapper">
-                        <img src="./images/team/5.png" alt="Dr. Akash Raj" class="team-photo">
+                        <img src="https://i.pinimg.com/736x/91/98/29/9198298e9fd4fd94a2c4a8c02ada35d6.jpg" alt="Dr. Akash Raj" class="team-photo">
                     </div>
                     <div class="team-body">
                         <div class="team-meta">

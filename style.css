@@ -162,10 +162,7 @@ body {
     overflow: hidden;
     color: var(--text-light);
     box-shadow: 0 20px 40px rgba(0,0,0,0.15);
-    min-height: 55vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    min-height: 560px;
     position: relative;
 }
 
@@ -202,7 +199,7 @@ body {
 }
 
 .btn-book:hover {
-    background-color: #dab876;
+    background-color: #87c7b4;
     transform: translateY(-2px);
 }
 
@@ -527,7 +524,7 @@ body {
 @media (max-width: 575.98px) {
     .about-heading { font-size: 24px; }
     .logo{
-        width: 32vh !important;
+        width: 30vh !important;
     }
     .footerlogo{
         width: 40vh !important;
@@ -1042,7 +1039,7 @@ body {
 @media (max-width: 991.98px) {
     .impact-section { padding: 80px 0; }
     .impact-main-title { font-size: 36px; margin-bottom: 40px; }
-    .impact-stat { font-size: 46px; }
+    .impact-stat { font-size: 35px; }
 }
 
 @media (max-width: 767.98px) {
@@ -1053,6 +1050,10 @@ body {
         padding: 30px 20px;
     }
     .impact-text { max-width: 100%; }
+    .choose-list-item {
+    border-top: 1px solid var(--border-muted);
+    padding: 20px;
+}
 }
 
 /* ======================== CASES SECTION ======================== */
@@ -1610,7 +1611,7 @@ body {
 }
 
 .btn-premium-cta:hover {
-    background-color: #dab876;
+    background-color: #87c7b4;
     color: var(--text-heading-dark);
     transform: translateY(-2px);
 }
@@ -3662,4 +3663,12 @@ body {
     .aligners-section { padding: 60px 0; }
     .aligners-heading { font-size: 1.85rem; }
     .aligner-grid-card { padding: 24px; }
+    .navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 1;
+    align-items: center;
+    background-color: #051e35;
+    padding: 20px;
+    border-radius: 15px;
+}
 }

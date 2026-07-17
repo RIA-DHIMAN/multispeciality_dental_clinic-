@@ -29,8 +29,11 @@
             <strong>Hours:</strong> 9:30 A.M. – 2:00 P.M. | 5:30 P.M. – 8:00 P.M.
         </p>
 
-        <p class="clinic-contact mb-0 scroll-up">
-            <strong>Location:</strong> K.N. Modi Complex, Modinagar | <strong>Call:</strong> 9457528557
+        <p class="clinic-contact mb-2 scroll-up">
+            <strong>Location:</strong> Shop no. 3 & 4 , K.N. Modi Complex, Near P.N.B., Modinagar.
+        </p>
+         <p class="clinic-contact mb-0 scroll-up">
+             <strong>Call:</strong> 9457528557
         </p>
     </div>
 

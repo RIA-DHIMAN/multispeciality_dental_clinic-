@@ -57,7 +57,7 @@ if ( have_posts() ) :
         ?>
 
         <div class="container-fluid">
-            <div class="hero-container p-4 p-md-5 pt-0 pt-md-0" style="background-image: linear-gradient(rgba(15, 42, 68, 0.45), rgba(15, 42, 68, 0.75)), url('<?php echo esc_url($post_img); ?>');">
+            <div class="hero-container p-4 p-md-5" style="background-image: linear-gradient(rgba(15, 42, 68, 0.45), rgba(15, 42, 68, 0.75)), url('<?php echo esc_url($post_img); ?>');">
                 
                 <?php get_template_part('navbar-template'); ?>
                 
@@ -112,11 +112,13 @@ if ( have_posts() ) :
                 <!-- Back to Blogs button -->
                 <div class="row mb-4">
                     <div class="col-12">
-                        <a href="<?php echo esc_url( dirname( home_url() ) ); ?>/blogs.php" class="btn btn-outline-primary d-inline-flex align-items-center gap-2 back-btn">
-                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <line x1="19" y1="12" x2="5" y2="12"></line>
-                                <polyline points="12 19 5 12 12 5"></polyline>
-                            </svg>
+                        <a href="<?php echo esc_url( dirname( home_url() ) ); ?>/blogs.php" class="btn btn-book back-btn d-inline-flex align-items-center gap-2">
+                            <span class="btn-arrow-circle bg-white text-dark">
+                                <svg viewBox="0 0 24 24" style="width: 12px; height: 12px; fill: none; stroke: currentColor; stroke-width: 3;">
+                                    <line x1="19" y1="12" x2="5" y2="12"></line>
+                                    <polyline points="12 19 5 12 12 5"></polyline>
+                                </svg>
+                            </span>
                             Back to Blogs
                         </a>
                     </div>

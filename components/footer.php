@@ -1,7 +1,7 @@
 <!-- 1. Premium Geometric CTA Block Element -->
 <section class="cta-bridge-section scroll-up">
     <div class="container">
-        <h2 class="cta-heading">Ready for a Healthier Smile? Visit Us at K.N. Modi Complex, Modinagar — Morning &amp; Evening Slots Available. Book your appointment today.</h2>
+        <h2 class="cta-heading">Ready for a Healthier Smile? Visit Us at Shop no. 3 & 4 , K.N. Modi Complex, Near P.N.B., Modinagar, Evening Slots Available. Book your appointment today.</h2>
         <a href="tel:9457528557" class="btn-premium-cta">
             <span class="cta-white-circle">
                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
@@ -38,10 +38,10 @@
             <!-- Right Nav Links -->
             <div>
                 <ul class="footer-nav-side">
-                    <li><a href="#" class="footer-link">Home</a></li>
-                    <li><a href="#" class="footer-link">About</a></li>
-                    <li><a href="#" class="footer-link">Services</a></li>
-                    <li><a href="mailto:tygiavneeshdr@gmail.com" class="footer-link">Contact Us</a></li>
+                    <li><a href="/" class="footer-link">Home</a></li>
+                    <li><a href="/about.php" class="footer-link">About</a></li>
+                    <li><a href="/blogs.php" class="footer-link">Blogs</a></li>
+                    <li><a href="/contact-us.php" class="footer-link">Contact Us</a></li>
                 </ul>
             </div>
 
